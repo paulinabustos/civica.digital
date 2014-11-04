@@ -111,27 +111,32 @@
 
 .section__showcase{
 	padding: 48px;
+	border-bottom: 4px solid #cccccc;
 	.showcase__content{
 		max-width: 1000px;
 		margin: 0 auto;
-	}
-	.showcase__grid{
-		margin-left: -24px;
-		.showcase__project{
-			padding-left: 24px;
-			display: inline-block;
-			width: 33.33%;
-			vertical-align: top;
+		&>p{
+			margin-bottom: 48px;
 		}
-		.project__content{
-			min-height: 200px;
-			padding: 48px 12px;
-			width: 100%;
+	}
+
+	.showcase__grid{
+		@extend .flexgrid__wrapper;
+		.showcase__row{
+			@extend .flexgrid__row;
+		}
+		.showcase__item{
+			@extend .flexgrid__col_4;
+			padding: 60px 24px;
+			text-align: center;
 			background-size: cover;
 			background-position: center center;
-			text-align: center;
+			color: $color__background;
 			h2{
 				color: $color__background;
+			}
+			&:last-child{
+				@extend .flexgrid__last;
 			}
 			&.project--data{
 				background-image: url(../images/bg_showcase-data.jpg);
@@ -147,6 +152,33 @@
 			}
 			&.project--more{
 				background-image: url(../images/bg_showcase-otros.jpg);
+			}
+		}
+	}
+}
+
+.section__services{
+	padding: 48px;
+	border-bottom: 4px solid #cccccc;
+	.services__content{
+		max-width: 1000px;
+		margin: 0 auto;
+		&>p{
+			margin-bottom: 48px;
+		}
+	}
+	.services__grid{
+		@extend .flexgrid__wrapper;
+		.services__row{
+			@extend .flexgrid__row;
+		}
+		.services__item{
+			@extend .flexgrid__col_4;
+			padding: 60px 24px;
+			background-color: #ECECEC;
+			text-align: center;
+			&:last-child{
+				@extend .flexgrid__last;
 			}
 		}
 	}
