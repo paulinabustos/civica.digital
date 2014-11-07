@@ -37,12 +37,16 @@
 		margin-top: 54px;
 		font-size: 18px;
 		@extend %title;
-		span{
+		a{
 			display: inline-block;
 			margin-left: 24px;
+			color: #000000;
 			&.selected{
 				border-bottom: 4px solid $color__branding;
 				font-weight: 500;
+				color: $color__branding;
+			}
+			&:hover{
 				color: $color__branding;
 			}
 		}
@@ -56,6 +60,9 @@
 			vertical-align: middle;
 			display: inline-block;
 			margin-left: 4px;
+			&:hover{
+				opacity: 0.6;
+			}
 		}
 		.bar__lang{
 			vertical-align: middle;
@@ -65,8 +72,12 @@
 			span{
 				font-size: 16px;
 				margin: 0 2px;
+				cursor: pointer;
 				&.selected{
 					font-weight: 500;
+					color: $color__branding;
+				}
+				&:hover{
 					color: $color__branding;
 				}
 			}
@@ -159,7 +170,6 @@
 
 .section__services{
 	padding: 48px;
-	border-bottom: 4px solid #cccccc;
 	.services__content{
 		max-width: 1000px;
 		margin: 0 auto;
@@ -180,6 +190,63 @@
 			&:last-child{
 				@extend .flexgrid__last;
 			}
+		}
+	}
+}
+
+.footer{
+	background-color: #ECECEC;
+	text-align: right;
+	padding:  48px 24px;
+	color: #444444;
+	a{
+		display: block;
+		color: $color__branding;
+		margin-top: 12px;
+	}
+	.footer__content{
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+}
+
+
+.section__page-intro{
+	width: 100%;
+	height: 420px;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(../images/bg_intro-team.jpg);
+	.intro__content{
+		position: absolute;
+		bottom: 0;
+		background-color: rgba(0,181,0,0.8);
+		left: 0;
+		width: 100%;
+		padding: 12px 48px;
+		h1{
+			max-width: 1000px;
+			margin: 0 auto;
+			color: #FFFFFF;
+		}
+	}
+	&.page--projects{
+		background-image: url(../images/bg_intro-projects.jpg);
+	}
+	&.page--services{
+		background-image: url(../images/bg_intro-services.jpg);
+	}
+}
+
+.section__team{
+	padding: 48px;
+	.team__content{
+		max-width: 1000px;
+		margin: 0 auto;
+		&>p{
+			margin-bottom: 48px;
 		}
 	}
 }
