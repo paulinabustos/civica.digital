@@ -85,7 +85,31 @@
 	}
 }
 
-.section__intro{
+[class*="section"]{
+	padding: 48px;
+	h1{
+		position: relative;
+		&:before{
+			content: "";
+			display: inline-block;
+			position: absolute;
+			width: 100%;
+			height: 14px;
+			background-color: $color__branding;
+			right: 100%;
+			top: 16px;
+			margin-right: 12px;
+		}
+	}
+	&>[class*="content"]{
+		max-width: 1000px;
+		margin: 0 auto;
+		&>p{
+			margin-bottom: 36px;
+		}
+	}
+}
+.index__intro{
 	width: 100%;
 	height: 100%;
 	background-image: url(../images/intro__bg.jpg);
@@ -120,24 +144,14 @@
 	}
 }
 
-.section__showcase{
-	padding: 48px;
-	border-bottom: 4px solid #cccccc;
-	.showcase__content{
-		max-width: 1000px;
-		margin: 0 auto;
-		&>p{
-			margin-bottom: 48px;
-		}
-	}
-
-	.showcase__grid{
+.section__projects{
+	.projects__grid{
 		@extend .flexgrid__wrapper;
-		.showcase__row{
+		.projects__row{
 			@extend .flexgrid__row;
 		}
-		.showcase__item{
-			@extend .flexgrid__col_4;
+		.projects__item{
+			@extend .flexgrid__col_6;
 			padding: 60px 24px;
 			text-align: center;
 			background-size: cover;
@@ -168,15 +182,31 @@
 	}
 }
 
-.section__services{
-	padding: 48px;
-	.services__content{
-		max-width: 1000px;
-		margin: 0 auto;
-		&>p{
-			margin-bottom: 48px;
+.section__apps{
+	.app__grid{
+		@extend .flexgrid__wrapper;
+		.app__row{
+			@extend .flexgrid__row;
+		}
+		.app__item{
+			@extend .flexgrid__col_4;
+			background-color: $color__branding;
+			color: $color__background;
+			padding: 60px 24px;
+			text-align: center;
+			h2{
+				color: $color__background;
+				font-size: 24px;
+			}
+			&:last-child{
+				@extend .flexgrid__last;
+			}
 		}
 	}
+}
+
+
+.section__services{
 	.services__grid{
 		@extend .flexgrid__wrapper;
 		.services__row{
@@ -185,8 +215,14 @@
 		.services__item{
 			@extend .flexgrid__col_4;
 			padding: 60px 24px;
-			background-color: #ECECEC;
+			background-color: $color__gray--light;
 			text-align: center;
+			h2{
+				font-size: 24px;
+			}
+			img{
+				width: 72px;
+			}
 			&:last-child{
 				@extend .flexgrid__last;
 			}
@@ -195,7 +231,7 @@
 }
 
 .footer{
-	background-color: #ECECEC;
+	background-color: $color__gray--light;
 	text-align: right;
 	padding:  48px 24px;
 	color: #444444;
@@ -211,7 +247,7 @@
 }
 
 
-.section__page-intro{
+.page__intro{
 	width: 100%;
 	height: 420px;
 	background-size: cover;
@@ -222,7 +258,7 @@
 	.intro__content{
 		position: absolute;
 		bottom: 0;
-		background-color: rgba(0,181,0,0.8);
+		background-color: rgba(58,177,207,0.8);
 		left: 0;
 		width: 100%;
 		padding: 12px 48px;
@@ -240,6 +276,12 @@
 	}
 }
 
+.section__clients{
+	img{
+		width: 320px;
+		padding: 20px;
+	}
+}
 .section__team{
 	padding: 48px;
 	.team__content{
@@ -248,5 +290,53 @@
 		&>p{
 			margin-bottom: 48px;
 		}
+	}
+}
+
+.press__entry{
+	@include vendor(border-radius, 4px);
+	border: 2px solid darken($color__gray--light,5);
+	padding-left: 160px;
+	position: relative;
+	min-height: 100px;
+	margin-bottom: 24px;
+	background-color: $color__gray--light;
+	display: table;
+	width: 100%;
+	[class*="icon"]{
+		width: 160px;
+		position: absolute;
+		background-size: contain;
+		background-position: center center;
+		background-repeat: no-repeat;
+		height: 96px;
+		left: 0;
+	}
+	.icon--hp{
+		background-image: url('../images/logo_hp.png');
+	}
+	.icon--fw{
+		background-image: url('../images/logo_fw.png');
+	}
+	.icon--tc{
+		background-image: url('../images/logo_tc.png');
+	}
+	/*
+	&:before{
+		background-color: $color__background;
+		content:"";
+		width: 160px;
+		height: 96px;
+		display: block;
+		position: absolute;
+		left: 0;
+	}*/
+	.entry__text{
+		height: 100%;
+		padding: 12px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: table-cell;
+		vertical-align: middle;
 	}
 }

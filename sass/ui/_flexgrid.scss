@@ -73,6 +73,7 @@ body .flexgrid__wrapper:first-child {
 		float: left;
 		word-break: break-word;
 		position: relative;
+		@include vendor(border-radius, 2px);
 	}
 	
 	.flexgrid__col_1 { width: 6.5%; }
