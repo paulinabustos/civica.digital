@@ -11,16 +11,19 @@
 <body>
     <div class="bar--top">
         <img class="bar__logo" src="images/logo--black.svg" />
-        <div class="bar__social">
-            <a href="https://twitter.com/CodeandoMexico" target="_blank"><i class="icon  icon-social-twitter"></i></a>
-            <a href="https://github.com/CodeandoMexico" target="_blank"><i class="icon  icon-social-github"></i></a>
-            <div class="bar__lang"><span>EN</span>|<span class="selected">ES</span></div>
-        </div>
-        <div class="bar__nav">
-            <a href="index.html" id="btn--nav__home">C&iacute;vica Digital</a>
-            <a href="apps.html" id="btn--nav__show">Apps</a>
-            <a href="servicios.html" id="btn--nav__serv"  class="selected">Servicios</a>
-            <a href="equipo.html" id="btn--nav__team">Equipo</a>
+        <div id="js-btn--menu" class="bar__btn"><i class="icon  icon-menu"></i></div>
+        <div id="js-bar__menu" class="bar__menu">
+            <div class="bar__social">
+                <a href="https://twitter.com/CodeandoMexico" target="_blank"><i class="icon  icon-social-twitter"></i></a>
+                <a href="https://github.com/CodeandoMexico" target="_blank"><i class="icon  icon-social-github"></i></a>
+                <div class="bar__lang"><span>EN</span>|<span class="selected">ES</span></div>
+            </div>
+            <div class="bar__nav">
+                <a href="index.html" id="btn--nav__home">C&iacute;vica Digital</a>
+                <a href="apps.html" id="btn--nav__show">Apps</a>
+                <a href="servicios.html" id="btn--nav__serv" class="selected">Servicios</a>
+                <a href="equipo.html" id="btn--nav__team">Equipo</a>
+            </div>
         </div>
     </div>
     <div class="page__intro  page--services">
@@ -30,38 +33,42 @@
             </div>
         </div>
     </div>
-    <div class="section">
+    <div class="section  page--services">
         <div class="content">
-            <div class="services__column">
-                <i class="icon  icon-help"></i>
-                <h2>Consultor&iacute;a</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <h3>Datos abiertos</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.</p>
-                <h3>Innovación abierta</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.</p>
-                <h3>Gobierno digital</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.</p>
-            </div><!--
-         --><div class="services__column">
-                <i class="icon  icon-code"></i>
-                <h2>Desarrollo</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <h3>Aplicaciones Cívicas</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.</p>
-                <h3>Apps con Datos Abiertos</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.</p>
-                <h3>Implementación de Apps Open Source</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.</p>
-            </div><!--
-         --><div class="services__column">
-                <i class="icon  icon-book"></i>
-                <h2>Educaci&oacute;n</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <h3>Entrenamiento para Desarrollo</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.</p>
-                <h3>Datos Abiertos</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.</p>
+            <div class="services__grid">
+                <div class="services__row">
+                    <div class="services__column">
+                        <i class="icon  icon-help"></i>
+                        <h2>Consultor&iacute;a</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Datos abiertos</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.</p>
+                        <h3>Innovación abierta</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.</p>
+                        <h3>Gobierno digital</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.</p>
+                    </div><!--
+                 --><div class="services__column">
+                        <i class="icon  icon-code"></i>
+                        <h2>Desarrollo</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Aplicaciones Cívicas</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.</p>
+                        <h3>Apps con Datos Abiertos</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.</p>
+                        <h3>Implementación de Apps Open Source</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.</p>
+                    </div><!--
+                 --><div class="services__column">
+                        <i class="icon  icon-book"></i>
+                        <h2>Educaci&oacute;n</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Entrenamiento para Desarrollo</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.</p>
+                        <h3>Datos Abiertos</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -83,7 +90,7 @@
                 <a href="equipo.html">Equipo</a>
             </div><!--
          --><div>
-                <a href="index.html">Empleos</a>
+                <a href="empleos.html">Empleos</a>
                 <a href="http://blog.codeandomexico.org/" target="_blank">Blog</a>
                 <a href="index.html">Press Kit</a>
             </div><!--
@@ -93,7 +100,8 @@
             </div>
         </div>
     </div>
-<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
 <script type="text/javascript" src="js/respond.js"></script>
 </body>
 </html>

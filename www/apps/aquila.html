@@ -11,32 +11,53 @@
 <body>
     <div class="bar--top">
         <img class="bar__logo" src="../images/logo--black.svg" />
-        <div class="bar__social">
-            <a href="https://twitter.com/CodeandoMexico" target="_blank"><i class="icon  icon-social-twitter"></i></a>
-            <a href="https://github.com/CodeandoMexico" target="_blank"><i class="icon  icon-social-github"></i></a>
-            <div class="bar__lang"><span>EN</span>|<span class="selected">ES</span></div>
-        </div>
-        <div class="bar__nav">
-            <a href="../index.html" id="btn--nav__home">C&iacute;vica Digital</a>
-            <a href="../apps.html" id="btn--nav__show" class="selected">Apps</a>
-            <a href="../servicios.html" id="btn--nav__serv">Servicios</a>
-            <a href="../equipo.html" id="btn--nav__team">Equipo</a>
+        <div id="js-btn--menu" class="bar__btn"><i class="icon  icon-menu"></i></div>
+        <div id="js-bar__menu" class="bar__menu">
+            <div class="bar__social">
+                <a href="https://twitter.com/CodeandoMexico" target="_blank"><i class="icon  icon-social-twitter"></i></a>
+                <a href="https://github.com/CodeandoMexico" target="_blank"><i class="icon  icon-social-github"></i></a>
+                <div class="bar__lang"><span>EN</span>|<span class="selected">ES</span></div>
+            </div>
+            <div class="bar__nav">
+                <a href="../index.html" id="btn--nav__home">C&iacute;vica Digital</a>
+                <a href="../apps.html" id="btn--nav__show" class="selected">Apps</a>
+                <a href="../servicios.html" id="btn--nav__serv">Servicios</a>
+                <a href="../equipo.html" id="btn--nav__team">Equipo</a>
+            </div>
         </div>
     </div>
     <div class="page__intro  page--projects">
         <div class="intro__wrapper">
             <div class="intro__content">
-                <h1>Aquila</h1>
+                <h1>Aquila
+                    <div class="intro__links">
+                        <a href="https://github.com/CodeandoMexico" target="_blank" <i class="icon  icon-social-github"></i></a>
+                    </div>
+                </h1>
+                
             </div>
         </div>
     </div>
     <div class="section__apps">
         <div class="apps__content">
-            <p class="app__slogan">Slogan de la app o MUY breve explicación</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non iaculis diam, at mattis libero. Nulla in arcu velit. Vivamus volutpat congue est id ultrices. Vivamus laoreet vitae quam sit amet mattis. Morbi malesuada dui nec lacinia porta. Vivamus malesuada purus orci, egestas auctor ex pulvinar in. Morbi vitae efficitur enim. Nullam suscipit enim mi, id pellentesque lectus viverra sed. Sed ac nisl sapien. Duis ac sapien nec nunc blandit condimentum sit amet non mauris. Morbi consequat quam elit, quis blandit lacus cursus eu. Maecenas mollis facilisis pretium. Proin nisl neque, posuere non vestibulum malesuada, ornare lobortis tortor. Etiam ut metus ut justo commodo tincidunt. Mauris semper euismod laoreet.</p>
-            <h1>Objetivos</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non iaculis diam, at mattis libero. Nulla in arcu velit. Vivamus volutpat congue est id ultrices. Vivamus laoreet vitae quam sit amet mattis. Morbi malesuada dui nec lacinia porta. Vivamus malesuada purus orci, egestas auctor ex pulvinar in. Morbi vitae efficitur enim.</p>
-            <h1>Subtítulo</h1>
+            <div class="app__txt">
+                <p class="app__slogan">Slogan de la app o MUY breve explicación</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non iaculis diam, at mattis libero. Nulla in arcu velit. Vivamus volutpat congue est id ultrices. Vivamus laoreet vitae quam sit amet mattis. Morbi malesuada dui nec lacinia porta. Vivamus malesuada purus orci, egestas auctor ex pulvinar in. Morbi vitae efficitur enim. Nullam suscipit enim mi, id pellentesque lectus viverra sed. Sed ac nisl sapien. Duis ac sapien nec nunc blandit condimentum sit amet non mauris. Morbi consequat quam elit, quis blandit lacus cursus eu. Maecenas mollis facilisis pretium.</p>
+            </div><!--
+         --><div class="app__img">
+                <img src="../images/app-img.png" />
+            </div>
+            <div class="app__img">
+                <img src="../images/app-img-2.png" />
+            </div><!--
+         --><div class="app__txt">
+                <h2>Funcionalidades</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non iaculis diam, at mattis libero. Nulla in arcu velit. Vivamus volutpat congue est id ultrices.</p>
+                <p>Vivamus laoreet vitae quam sit amet mattis. Morbi malesuada dui nec lacinia porta. Vivamus malesuada purus orci, egestas auctor ex pulvinar in. Morbi vitae efficitur enim.</p>
+            </div>
+            
+
+            <h2>Subtítulo</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non iaculis diam, at mattis libero. Nulla in arcu velit. Vivamus volutpat congue est id ultrices. Vivamus laoreet vitae quam sit amet mattis. Morbi malesuada dui nec lacinia porta. Vivamus malesuada purus orci, egestas auctor ex pulvinar in. Morbi vitae efficitur enim.</p>
             <div class="centered-text">
                 <a href="https://github.com/CodeandoMexico" target="_blank" class="button--big"><i class="icon  icon-social-github"></i>Repo en GitHub</a>
@@ -61,7 +82,7 @@
                 <a href="../equipo.html">Equipo</a>
             </div><!--
          --><div>
-                <a href="../index.html">Empleos</a>
+                <a href="../empleos.html">Empleos</a>
                 <a href="http://blog.codeandomexico.org/" target="_blank">Blog</a>
                 <a href="../index.html">Press Kit</a>
             </div><!--
@@ -71,7 +92,8 @@
             </div>
         </div>
     </div>
-<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="js/respond.js"></script>
+<script type="text/javascript" src="../js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="../js/functions.js"></script>
+<script type="text/javascript" src="../js/respond.js"></script>
 </body>
 </html>

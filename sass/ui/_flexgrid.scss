@@ -36,6 +36,8 @@ body .flexgrid__wrapper:first-child {
 	box-sizing: border-box;
 	word-break: break-word;
 	margin: 0;
+	margin-bottom: 24px;
+	@include vendor(border-radius, 2px);
 }
 
 
@@ -44,7 +46,7 @@ body .flexgrid__wrapper:first-child {
 	padding: 0 !important;
 }
 
-@media all and (min-width : 768px) {
+@media all and (min-width : 800px) {
 	.flexgrid__wrapper {
 		width: 100%;
 		padding: 0;
@@ -73,7 +75,7 @@ body .flexgrid__wrapper:first-child {
 		float: left;
 		word-break: break-word;
 		position: relative;
-		@include vendor(border-radius, 2px);
+		
 	}
 	
 	.flexgrid__col_1 { width: 6.5%; }

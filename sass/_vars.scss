@@ -59,7 +59,7 @@ $use-greybox:       false;
  * Place any variables that should override inuit.css’ defaults here.
  */
 
-$lap-start:         641px!default;
+$lap-start:         681px!default;
 $desk-start:        1024px!default;
 $desk-wide-start:   1200px!default;
 
@@ -77,7 +77,7 @@ $desk-wide-start:   1200px!default;
 $progress-dots: 6!default;
 
 // max-width variable changes the maximum width of the container (except when the screen is that size or smaller of course)
-$max-width: 480px;
+$max-width: 680px;
 
 $color__gray--light: #F8F8F8;
 $color__gray--medium: #656568;
