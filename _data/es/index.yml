@@ -1,0 +1,25 @@
+title: Cívica Digital
+
+intro:
+  img: images/logo--white.svg
+  content: Frase super inspiradora de la visión y/o misión de Cívica Digital.
+
+projects:
+  title: Proyectos
+  content: >
+    Conoce algunos de nuestros proyectos blablabla. La mayoría son open source o
+    yo qué sé;. Un poco más de rollo. Explicar brevemente tamaño tweet o dos
+    tweets o algo así.
+  list:
+    - title: Data MX
+      link: http://datamx.io
+      img: images/logo_datamx--white.svg
+      desc: La plataforma cívica de datos abiertos de México
+      meta:
+        classes: project--data
+    - title: Codeando México
+      link: http://codeandomexico.org
+      img: images/logo_codeando--white.svg
+      desc: La comunidad blabla retos abiertos lorem ipsum.
+      meta:
+        classes: project--codeando

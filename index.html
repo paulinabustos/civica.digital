@@ -1,9 +1,15 @@
+---
+lang: es
+---
+
+{{ assign t = site.data[page.lang].index }}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
-    <title>C&iacute;vica Digital</title>
+    <title>{{ t.title }}</title>
 	<link rel="shortcut icon" href="favicon.ico"/>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
@@ -30,27 +36,24 @@
         <div class="intro__overlay"></div>
         <div class="intro__wrapper">
             <div class="intro__content">
-                <img class="intro__logo" src="images/logo--white.svg" />
-                <p>Frase super inspiradora de la visión y/o misión de C&iacute;vica Digital.</p>
+                <img class="intro__logo" src="{{ t.intro.img }}" />
+                <p>{{ t.intro.content }}</p>
             </div>
         </div>
     </div>
     <div class="section__projects">
         <div class="projects__content">
-            <h1>Proyectos</h1>
-            <p>Conoce algunos de nuestros proyectos blablabla. La mayor&iacute;a son open source o yo qu&eacute; s&eacute;. Un poco más de rollo. Explicar brevemente tamaño tweet o dos tweets o algo así.</p>
+            <h1></h1>
+            <p></p>
             <div class="projects__grid">
                 <div class="projects__row">
-                    <a href="http://datamx.io" target="_blank" class="projects__item  project--data">
-                        <img src="images/logo_datamx--white.svg" />
-                        <h2>Data MX</h2>
-                        <p>La plataforma cívica de datos abiertos de México</p>
+                    {% for project in t.projects.list %}
+                    <a href="{{ project.link }}" target="_blank" class="projects__item  {{ project.meta.classes}}">
+                        <img src="{{ project.img }}" />
+                        <h2>{{ project.title }}</h2>
+                        <p>{{ project.desc }}</p>
                     </a>
-                    <a href="http://codeandomexico.org" target="_blank" class="projects__item  project--codeando">
-                        <img src="images/logo_codeando--white.svg" />
-                        <h2>Codeando M&eacute;xico</h2>
-                        <p>La comunidad blabla retos abiertos lorem ipsum.</p>
-                    </a>
+                    {% endfor %}
                 </div>
             </div>
         </div>
