@@ -23,3 +23,30 @@ projects:
       desc: La comunidad blabla retos abiertos lorem ipsum.
       meta:
         classes: project--codeando
+
+apps:
+  title: Aplicaciones
+  content: >
+    Conoce algunos de nuestros proyectos blablabla. La mayor&iacute;a son open
+    source o yo qu&eacute; s&eacute;. Un poco más de rollo.
+    Explicar brevemente tamaño tweet o dos tweets o algo así.
+  list:
+    - title: Aquila
+      desc: La plataforma cívica de datos abiertos de México
+      link: apps/aquila.html
+      meta:
+        class: icon-medal
+
+    - title: Open Data
+      desc: La comunidad blabla retos abiertos lorem ipsum.
+      link: apps/aquila.html
+      meta:
+        class: app--opendata
+        icon: icon-database
+
+    - title: Urbem
+      desc: La comunidad blabla retos abiertos lorem ipsum.
+      link: apps/aquila.html
+      meta:
+        class: app--urbem
+        icon: icon-message

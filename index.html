@@ -60,25 +60,17 @@ lang: es
     </div>
     <div class="section__apps">
         <div class="apps__content">
-            <h1>Aplicaciones</h1>
-            <p>Conoce algunos de nuestros proyectos blablabla. La mayor&iacute;a son open source o yo qu&eacute; s&eacute;. Un poco más de rollo. Explicar brevemente tamaño tweet o dos tweets o algo así.</p>
+            <h1>{{ t.apps.title }}</h1>
+            <p>{{ t.apps.content }}</p>
             <div class="app__grid">
                 <div class="app__row">
-                    <a href="apps/aquila.html" class="app__item  app--aquila">
-                        <i class="icon  icon-medal"></i>
-                        <h2>Aquila</h2>
-                        <p>La plataforma cívica de datos abiertos de México</p>
+                  {% for app in t.apps.list %}
+                    <a href="{{ app.link }}" class="app__item  {{ app.meta.class }}">
+                        <i class="icon  {{ app.meta.icon }}"></i>
+                        <h2>{{ app.title }}</h2>
+                        <p>{{ app.desc }}</p>
                     </a>
-                    <a href="apps/aquila.html" class="app__item  app--opendata">
-                        <i class="icon  icon-database"></i>
-                        <h2>Open Data</h2>
-                        <p>La comunidad blabla retos abiertos lorem ipsum.</p>
-                    </a>
-                    <a href="apps/aquila.html" class="app__item  app--urbem">
-                        <i class="icon  icon-message"></i>
-                        <h2>Urbem</h2>
-                        <p>La comunidad blabla retos abiertos lorem ipsum.</p>
-                    </a>
+                    {% endfor %}
                 </div>
             </div>
         </div>
