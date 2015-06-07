@@ -69,3 +69,19 @@ services:
       desc: Lorem ipsum dolor sit amet.
       meta:
         icon: icon-book
+
+press:
+  title: Prensa
+  desc: Lorem ipsum dolor sit amet.
+  list:
+    - desc: El Hacker Cívico: Civic-Minded Techies Gain Sway with Government in Mexico and Beyond"
+      meta:
+        icon: icon--hp
+
+    - desc: Bringing Down The Mexican Tech Mafia: How Hackers Stopped A $9.3 Million Fraud
+      meta:
+        icon: icon--tc
+
+    - desc: El reto de los retos públicos en México [FW Interviú]
+      meta:
+        icon: icon--fw

@@ -106,20 +106,14 @@ lang: es
     </div>
     <div class="section__press">
         <div class="content">
-            <h1>Prensa</h1>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <h1>{{ t.press.title }}</h1>
+            <p>{{ t.press.desc }}</p>
+            {% for press in t.press.lust %}
             <div class="press__entry">
-                <div class="icon--hp"></div>
-                <div class="entry__text">"El Hacker Cívico: Civic-Minded Techies Gain Sway with Government in Mexico and Beyond"</div>
+                <div class="{{ press.meta.icon }}"></div>
+                <div class="entry__text">{{ press.desc }}</div>
             </div>
-            <div class="press__entry">
-                <div class="icon--tc"></div>
-                <div class="entry__text">"Bringing Down The Mexican Tech Mafia: How Hackers Stopped A $9.3 Million Fraud"</div>
-            </div>
-            <div class="press__entry">
-                <div class="icon--fw"></div>
-                <div class="entry__text">"El reto de los retos públicos en México [FW Interviú]"</div>
-            </div>
+            {% endfor %}
         </div>
     </div>
     <div class="footer">
