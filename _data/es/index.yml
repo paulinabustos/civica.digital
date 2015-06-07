@@ -35,7 +35,8 @@ apps:
       desc: La plataforma cívica de datos abiertos de México
       link: apps/aquila.html
       meta:
-        class: icon-medal
+        class: app--aquila
+        icon: icon-medal
 
     - title: Open Data
       desc: La comunidad blabla retos abiertos lorem ipsum.
@@ -85,14 +86,14 @@ press:
   title: Prensa
   desc: Lorem ipsum dolor sit amet.
   list:
-    - desc: El Hacker Cívico: Civic-Minded Techies Gain Sway with Government in Mexico and Beyond"
+    - desc: "El Hacker Cívico: Civic-Minded Techies Gain Sway with Government in Mexico and Beyond"
       meta:
         icon: icon--hp
 
-    - desc: Bringing Down The Mexican Tech Mafia: How Hackers Stopped A $9.3 Million Fraud
+    - desc: "Bringing Down The Mexican Tech Mafia: How Hackers Stopped A $9.3 Million Fraud"
       meta:
         icon: icon--tc
 
-    - desc: El reto de los retos públicos en México [FW Interviú]
+    - desc: "El reto de los retos públicos en México [FW Interviú]"
       meta:
         icon: icon--fw

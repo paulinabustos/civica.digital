@@ -2,7 +2,7 @@
 lang: es
 ---
 
-{{ assign t = site.data[page.lang].index }}
+{% assign t = site.data[page.lang].index %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -105,7 +105,7 @@ lang: es
         <div class="content">
             <h1>{{ t.press.title }}</h1>
             <p>{{ t.press.desc }}</p>
-            {% for press in t.press.lust %}
+            {% for press in t.press.list %}
             <div class="press__entry">
                 <div class="{{ press.meta.icon }}"></div>
                 <div class="entry__text">{{ press.desc }}</div>
