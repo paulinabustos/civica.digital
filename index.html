@@ -77,25 +77,17 @@ lang: es
     </div>
     <div class="section__services">
         <div class="services__content">
-            <h1>Servicios</h1>
-            <p>¿Qu&eacute; podemos hacer por ti?</p>
+            <h1>{{ t.services.title }}</h1>
+            <p>{{ t.services.desc }}</p>
             <div class="services__grid">
                 <div class="services__row">
+                  {% for service in t.services.list %}
                     <div class="services__item">
-                        <i class="icon  icon-help"></i>
-                        <h2>Consultoría</h2>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <i class="icon   {{ service.meta.icon }}"></i>
+                        <h2>{{ service.title }}</h2>
+                        <p>{{ service.desc }}</p>
                     </div>
-                    <div class="services__item">
-                        <i class="icon  icon-code"></i>
-                        <h2>Desarrollo</h2>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <div class="services__item">
-                        <i class="icon  icon-book"></i>
-                        <h2>Educaci&oacute;n</h2>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>

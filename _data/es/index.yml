@@ -50,3 +50,22 @@ apps:
       meta:
         class: app--urbem
         icon: icon-message
+
+services:
+  title: Servicios
+  desc: ¿Qué podemos hacer por ti?
+  list:
+    - title: Consultoría
+      desc: Lorem ipsum dolor sit amet.
+      meta:
+        icon: icon-help
+
+    - title: Desarrollo
+      desc: Lorem ipsum dolor sit amet.
+      meta:
+        icon: icon-code
+
+    - title: Educación
+      desc: Lorem ipsum dolor sit amet.
+      meta:
+        icon: icon-book
