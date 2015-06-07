@@ -1,0 +1,42 @@
+title: Servicios
+
+section:
+  - meta:
+      icon: icon-help
+    title: Consultoría
+    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    list:
+      - title:  Datos abiertos
+        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.
+
+      - title: Innovación abierta
+        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.
+
+      - title: Gobierno digital
+        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.
+
+
+  - meta:
+      icon: icon-code
+    title: Desarrollo
+    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    list:
+      - title:  Aplicaciones Cívicas
+        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.
+
+      - title: Apps con Datos Abiertos
+        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.
+
+      - title: Implementación de Apps Open Source
+        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.
+
+  - meta:
+      icon: icon-book
+    title: Educación
+    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    list:
+      - title: Entrenamiento para Desarrollo
+        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.
+
+      - title: Datos Abiertos
+        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.

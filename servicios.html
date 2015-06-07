@@ -1,3 +1,9 @@
+---
+lang: es
+---
+
+{% assign t = site.data[page.lang].services %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +35,7 @@
     <div class="page__intro  page--services">
         <div class="intro__wrapper">
             <div class="intro__content">
-                <h1>Servicios</h1>
+                <h1>{{ t.title }}</h1>
             </div>
         </div>
     </div>
@@ -37,37 +43,17 @@
         <div class="content">
             <div class="services__grid">
                 <div class="services__row">
+                  {% for section in t.section %}
                     <div class="services__column">
-                        <i class="icon  icon-help"></i>
-                        <h2>Consultor&iacute;a</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <h3>Datos abiertos</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.</p>
-                        <h3>Innovación abierta</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.</p>
-                        <h3>Gobierno digital</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.</p>
-                    </div><!--
-                 --><div class="services__column">
-                        <i class="icon  icon-code"></i>
-                        <h2>Desarrollo</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <h3>Aplicaciones Cívicas</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.</p>
-                        <h3>Apps con Datos Abiertos</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.</p>
-                        <h3>Implementación de Apps Open Source</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.</p>
-                    </div><!--
-                 --><div class="services__column">
-                        <i class="icon  icon-book"></i>
-                        <h2>Educaci&oacute;n</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <h3>Entrenamiento para Desarrollo</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.</p>
-                        <h3>Datos Abiertos</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales.</p>
+                        <i class="icon  {{ section.meta.icon }}"></i>
+                        <h2>{{ section.title }}</h2>
+                        <p>{{ section.desc }}</p>
+                        {% for elem in section.list %}
+                        <h3>{{ elem.title }}</h3>
+                        <p>{{ elem.desc }}</p>
+                        {% endfor %}
                     </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>
