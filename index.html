@@ -94,14 +94,11 @@ lang: es
     </div>
     <div class="section__clients">
         <div class="content">
-            <h1>¿Con qui&eacute;n hemos trabajado?</h1>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <img src="images/logo_imco.png" /><!--
-         --><img src="images/logo_presidencia.png" /><!--
-         --><img src="images/logo_bogota.png" /><!--
-         --><img src="images/logo_fondeso.png" /><!--
-         --><img src="images/logo_usaid.png" /><!--
-         --><img src="images/logo_transparencia.png" />
+            <h1>{{ t.clients.title }}</h1>
+            <p>{{ t.clients.desc}}</p>
+            {% for client in t.clients.list %}
+            <img src="{{ client.img }}" />
+            {% endfor %}
         </div>
     </div>
     <div class="section__press">

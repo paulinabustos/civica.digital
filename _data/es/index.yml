@@ -70,6 +70,17 @@ services:
       meta:
         icon: icon-book
 
+clients:
+  title: ¿Con qui&eacute;n hemos trabajado?
+  desc: Lorem ipsum dolor sit amet.
+  list:
+    - img: images/logo_imco.png
+    - img: images/logo_presidencia.png
+    - img: images/logo_bogota.png
+    - img: images/logo_fondeso.png
+    - img: images/logo_usaid.png
+    - img: images/logo_transparencia.png
+
 press:
   title: Prensa
   desc: Lorem ipsum dolor sit amet.
