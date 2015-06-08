@@ -4,33 +4,33 @@ section:
   - meta:
       icon: icon-help
     title: Desarrollo de aplicaciones Cívicas
-    desc: Desarrollamos soluciones tecnológicas para generar impacto en el ámbito social y público, a través de: 
+    desc: "Desarrollamos soluciones tecnológicas para generar impacto en el ámbito social y público, a través de: "
     list:
       - title:  Web
-        desc: Aplicaciones cívicas enfocadas en el usuario y accesibles desde cualquier navegador. 
+        desc: Aplicaciones cívicas enfocadas en el usuario y accesibles desde cualquier navegador.
       - title: Mobile
-        desc: Aplicaciones cívicas en los sistemas operativos móviles más utilizados. 
- 
+        desc: Aplicaciones cívicas en los sistemas operativos móviles más utilizados.
+
   - meta:
       icon: icon-code
     title: Datos abiertos
-    desc: Los Datos Abiertos es un tema que todo tipo de organizaciones deben realizar: Asociaciones Civiles Empresas o Gobiernos. Nosotros te acompañamos durante todo el proceso, desde entender qué son, hasta qué se puede hacer con ellos.
+    desc: "Los Datos Abiertos es un tema que todo tipo de organizaciones deben realizar: Asociaciones Civiles Empresas o Gobiernos. Nosotros te acompañamos durante todo el proceso, desde entender qué son, hasta qué se puede hacer con ellos."
     list:
       - title:  Plataformas
-        desc: Cada organización es distinta. Podemos ayudarte a elegir, implementar y decidir cómo es que mostrarás tus datos. 
+        desc: Cada organización es distinta. Podemos ayudarte a elegir, implementar y decidir cómo es que mostrarás tus datos.
       - title: Procesos de apertura
-        desc: Saber por dónde empezar para abrir datos puede ser un reto. Con nuestra metodología basada en mejores prácticas, establecer esta ruta en tu organización será mucho menos complicado. 
+        desc: Saber por dónde empezar para abrir datos puede ser un reto. Con nuestra metodología basada en mejores prácticas, establecer esta ruta en tu organización será mucho menos complicado.
       - title: Entrenamiento
         desc: Nosotros te apoyamos y te ayudamos a consturir capacidades dentro de tu equipo, para que no sea un reto tener datos abiertos disponibles.
 
   - meta:
       icon: icon-book
     title: Innovación Abierta
-    desc: Encontrar soluciones a las necesidades de tu organización apoyándote en la comunidad, a través de un proceso abierto en el cual la creatividad de muchos se concentra para llegar al mejor resultado. 
+    desc: Encontrar soluciones a las necesidades de tu organización apoyándote en la comunidad, a través de un proceso abierto en el cual la creatividad de muchos se concentra para llegar al mejor resultado.
 
     list:
       - title: Retos
         desc: A través de un proceso abierto y de participación de la comunidad, te acompañamos para encontrar la mejor solución a tus necesidades.
 
       - title: Entrenamiento
-        desc: Nadie conoce como tú las problemáticas de tu organización. Podemos entrenarte para que utilizar el modelo de innovación abierta se vuelva algo común en tu equipo. 
+        desc: Nadie conoce como tú las problemáticas de tu organización. Podemos entrenarte para que utilizar el modelo de innovación abierta se vuelva algo común en tu equipo.

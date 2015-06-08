@@ -7,9 +7,9 @@ intro:
 projects:
   title: Hacemos proyectos con la gente
   content: >
-    Cada uno de nuestros proyectos tiene un componente cívico, dentro del cual fomentamos 
-    una mejor calidad en los servicios públicos, mayor apertura de los gobiernos y el 
-    empoderamiento de las organizaciones de la sociedad civil con quienes trabajamos. 
+    Cada uno de nuestros proyectos tiene un componente cívico, dentro del cual fomentamos
+    una mejor calidad en los servicios públicos, mayor apertura de los gobiernos y el
+    empoderamiento de las organizaciones de la sociedad civil con quienes trabajamos.
   list:
     - title: Data MX
       link: http://datamx.io
@@ -27,9 +27,9 @@ projects:
 apps:
   title: Nuestros productos
   content: >
-    Desarrollamos productos que atienden a problemáticas ciudadanas específicas. 
-    Diseñadas de la mano del ciudadano, enfocadas en resolver problemas ciudadanos 
-    y hacer de los procesos públicos más efectivos y abiertos. 
+    Desarrollamos productos que atienden a problemáticas ciudadanas específicas.
+    Diseñadas de la mano del ciudadano, enfocadas en resolver problemas ciudadanos
+    y hacer de los procesos públicos más efectivos y abiertos.
 
   list:
     - title: Aquila
@@ -70,7 +70,7 @@ apps:
 
 services:
   title: Servicios
-  desc: Cívica Digital te puede ayudar de la siguiente forma:
+  desc: "Cívica Digital te puede ayudar de la siguiente forma:"
   list:
     - title: Consultoría
       desc: Soluciones a la medida, siguiendo metodologías ágiles para asegurarnos de que sea la más efectiva posible.
@@ -89,7 +89,7 @@ services:
 
 clients:
   title: ¿Con quién hemos trabajado?
-  desc: Sabemos que juntos somos más poderosos. Es por esto que siempre buscamos tener aliados que conozcan las problemáticas y que tengan otros acercamientos hacia la problemática. Estos son algunos de ellos: 
+  desc: "Sabemos que juntos somos más poderosos. Es por esto que siempre buscamos tener aliados que conozcan las problemáticas y que tengan otros acercamientos hacia la problemática. Estos son algunos de ellos:"
   list:
     - img: images/logo_imco.png
     - img: images/logo_presidencia.png
