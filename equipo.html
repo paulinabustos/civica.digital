@@ -1,91 +1,40 @@
 ---
+layout: default
 lang: es
 ---
+
 {% assign t = site.data[page.lang].team %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
-    <title>C&iacute;vica Digital</title>
-	<link rel="shortcut icon" href="favicon.ico"/>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <div class="bar--top">
-        <img class="bar__logo" src="images/logo--black.svg" />
-        <div id="js-btn--menu" class="bar__btn"><i class="icon  icon-menu"></i></div>
-        <div id="js-bar__menu" class="bar__menu">
-            <div class="bar__social">
-                <a href="https://twitter.com/CodeandoMexico" target="_blank"><i class="icon  icon-social-twitter"></i></a>
-                <a href="https://github.com/CodeandoMexico" target="_blank"><i class="icon  icon-social-github"></i></a>
-                <div class="bar__lang"><span>EN</span>|<span class="selected">ES</span></div>
-            </div>
-            <div class="bar__nav">
-                <a href="index.html" id="btn--nav__home">C&iacute;vica Digital</a>
-                <a href="apps.html" id="btn--nav__show">Apps</a>
-                <a href="servicios.html" id="btn--nav__serv" class="selected">Servicios</a>
-                <a href="equipo.html" id="btn--nav__team">Equipo</a>
-            </div>
+
+<div class="page__intro">
+    <div class="intro__wrapper">
+        <div class="intro__content">
+            <h1>{{ t.title }}</h1>
         </div>
     </div>
-    <div class="page__intro">
-        <div class="intro__wrapper">
-            <div class="intro__content">
-                <h1>{{ t.title }}</h1>
-            </div>
-        </div>
-    </div>
-    <div class="section__team">
-        <div class="team__content">
-            <p>{{ t.desc }}</p>
-            <div class="team__grid">
-              {% for member in t.members %}<!-- begin hack --><div class="team__card__wrapper">
-                    <div class="team__card">
-                        <div class="card__img">
-                            <img src="{{ member.photo }}" />
-                            <div class="card__social">
-                                <div>
-                                  {% for sn in member.social %}
-                                    <a href="{{ sn.link }}" target="_blank"><i class="icon  icon-social-{{sn.name}}"></i></a>
-                                  {% endfor %}
-                                </div>
+</div>
+
+<div class="section__team">
+    <div class="team__content">
+        <p>{{ t.desc }}</p>
+        <div class="team__grid">
+          {% for member in t.members %}<!-- begin hack --><div class="team__card__wrapper">
+                <div class="team__card">
+                    <div class="card__img">
+                        <img src="{{ member.photo }}" />
+                        <div class="card__social">
+                            <div>
+                              {% for sn in member.social %}
+                                <a href="{{ sn.link }}" target="_blank"><i class="icon  icon-social-{{sn.name}}"></i></a>
+                              {% endfor %}
                             </div>
                         </div>
-                        <div class="card__text">
-                            <h3>{{ member.name }}</h3>
-                            <p>{{ member.desc }}</p>
-                        </div>
                     </div>
-                </div><!-- end hack -->{% endfor %}
-            </div>
+                    <div class="card__text">
+                        <h3>{{ member.name }}</h3>
+                        <p>{{ member.desc }}</p>
+                    </div>
+                </div>
+            </div><!-- end hack -->{% endfor %}
         </div>
     </div>
-    <div class="footer">
-        <div class="footer__content">
-            <div>
-                <h4>Cívica Digital 2014</h4>
-                <a class="footer__mail" href="mailto:info@civica.digital">info@civica.digital</a>
-            </div><!--
-         --><div>
-                <a href="apps.html">Apps</a>
-                <a href="servicios.html">Servicios</a>
-                <a href="equipo.html">Equipo</a>
-            </div><!--
-         --><div>
-                <a href="empleos.html">Empleos</a>
-                <a href="http://blog.codeandomexico.org/" target="_blank">Blog</a>
-                <a href="index.html">Press Kit</a>
-            </div><!--
-         --><div>
-                <a class="footer__icon-link" href="http://codeandomexico.org" target="_blank"><i class="icon  icon-logo-codeando"></i>Codeando México</a>
-                <a class="footer__icon-link" href="http://datamx.io" target="_blank"><i class="icon  icon-logo-datamx"></i>DataMX</a>
-            </div>
-        </div>
-    </div>
-<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
-<script type="text/javascript" src="js/functions.js"></script>
-<script type="text/javascript" src="js/respond.js"></script>
-</body>
-</html>
+</div>
