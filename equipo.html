@@ -1,3 +1,7 @@
+---
+lang: es
+---
+{% assign t = site.data[page.lang].team %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,52 +33,33 @@
     <div class="page__intro">
         <div class="intro__wrapper">
             <div class="intro__content">
-                <h1>Equipo</h1>
+                <h1>{{ t.title }}</h1>
             </div>
         </div>
     </div>
     <div class="section__team">
         <div class="team__content">
-            <p>Aquí contamos la historia de Codeando México/Cívica Digital brevemente. ¿Cómo empezó? ¿Por qué empezó? ¿De dónde surgió la idea y la necesidad? ¿Cuál es nuestro objetivo? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales. Nam aliquet, est vitae aliquam cursus, nisl ipsum molestie ante, in hendrerit neque mauris in augue. Fusce interdum viverra diam sed volutpat.</p>
+            <p>{{ t.desc }}</p>
             <div class="team__grid">
-                <div class="team__card__wrapper">
+              {% for member in t.members %}<!-- begin hack --><div class="team__card__wrapper">
                     <div class="team__card">
                         <div class="card__img">
-                            <img src="images/foto-jp.jpg" />
+                            <img src="{{ member.photo }}" />
                             <div class="card__social">
                                 <div>
-                                    <a href="https://twitter.com/juanpabloe" target="_blank"><i class="icon  icon-social-twitter"></i></a><!--
-                                 --><a href="https://linkedin.com/in/juanpabloe" target="_blank"><i class="icon  icon-social-linkedin"></i></a><!--
-                                 --><a href="https://github.com/juanpabloe" target="_blank"><i class="icon  icon-social-github"></i></a>
+                                  {% for sn in member.social %}
+                                    <a href="{{ sn.link }}" target="_blank"><i class="icon  icon-social-{{sn.name}}"></i></a>
+                                  {% endfor %}
                                 </div>
                             </div>
                         </div>
                         <div class="card__text">
-                            <h3>Juan Pablo Escobar</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros.</p>
+                            <h3>{{ member.name }}</h3>
+                            <p>{{ member.desc }}</p>
                         </div>
                     </div>
-                </div><!--
-             --><div class="team__card__wrapper">
-                    <div class="team__card">
-                        <div class="card__img">
-                            <img src="images/foto-eme.jpg" />
-                            <div class="card__social">
-                                <div>
-                                    <a href="https://twitter.com/ememorato" target="_blank"><i class="icon  icon-social-twitter"></i></a><!--
-                                 --><a href="https://linkedin.com/in/ememorato" target="_blank"><i class="icon  icon-social-linkedin"></i></a><!--
-                                 --><a href="https://github.com/ememorato" target="_blank"><i class="icon  icon-social-github"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card__text">
-                            <h3>Manuel Morato</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros.</p>
-                        </div>
-                    </div>
-                </div>
+                </div><!-- end hack -->{% endfor %}
             </div>
-            
         </div>
     </div>
     <div class="footer">
