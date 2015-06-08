@@ -1,0 +1,30 @@
+title: Equipo
+desc: Aquí contamos la historia de Codeando México/Cívica Digital brevemente. ¿Cómo empezó? ¿Por qué empezó? ¿De dónde surgió la idea y la necesidad? ¿Cuál es nuestro objetivo? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros. Cras pharetra rhoncus sodales. Nam aliquet, est vitae aliquam cursus, nisl ipsum molestie ante, in hendrerit neque mauris in augue. Fusce interdum viverra diam sed volutpat.
+
+members:
+  - name: Juan Pablo Escobar
+    desc: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+      ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros.
+    photo: images/foto-jp.jpg
+    social:
+      - name: github
+        link: https://github.com/juanpabloe
+      - name: twitter
+        link: https://twitter.com/juanpabloe
+      - name: linkedin
+        link: https://linkedin.com/in/juanpabloe
+
+
+  - name: Manuel Morato
+    desc: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+      ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros.
+    photo: images/foto-eme.jpg
+    social:
+      - name: github
+        link: https://github.com/ememorato
+      - name: twitter
+        link: https://twitter.com/ememorato
+      - name: linkedin
+        link: https://linkedin.com/in/ememorato
