@@ -1,0 +1,142 @@
+---
+lang: es
+---
+
+{% assign t = site.data[page.lang].index %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
+    <title>{{ t.title }}</title>
+	<link rel="shortcut icon" href="favicon.ico"/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="bar--top">
+        <img class="bar__logo" src="images/logo--black.svg" />
+        <div id="js-btn--menu" class="bar__btn"><i class="icon  icon-menu"></i></div>
+        <div id="js-bar__menu" class="bar__menu">
+            <div class="bar__social">
+                <a href="https://twitter.com/CodeandoMexico" target="_blank"><i class="icon  icon-social-twitter"></i></a>
+                <a href="https://github.com/CodeandoMexico" target="_blank"><i class="icon  icon-social-github"></i></a>
+                <div class="bar__lang"><span>EN</span>|<span class="selected">ES</span></div>
+            </div>
+            <div class="bar__nav">
+                <a href="index.html" id="btn--nav__home" class="selected">C&iacute;vica Digital</a>
+                <a href="apps.html" id="btn--nav__show">Apps</a>
+                <a href="servicios.html" id="btn--nav__serv">Servicios</a>
+                <a href="equipo.html" id="btn--nav__team">Equipo</a>
+            </div>
+        </div>
+    </div>
+    <div class="index__intro">
+        <div class="intro__overlay"></div>
+        <div class="intro__wrapper">
+            <div class="intro__content">
+                <img class="intro__logo" src="{{ t.intro.img }}" />
+                <p>{{ t.intro.content }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="section__projects">
+        <div class="projects__content">
+            <h1></h1>
+            <p></p>
+            <div class="projects__grid">
+                <div class="projects__row">
+                    {% for project in t.projects.list %}
+                    <a href="{{ project.link }}" target="_blank" class="projects__item  {{ project.meta.classes}}">
+                        <img src="{{ project.img }}" />
+                        <h2>{{ project.title }}</h2>
+                        <p>{{ project.desc }}</p>
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section__apps">
+        <div class="apps__content">
+            <h1>{{ t.apps.title }}</h1>
+            <p>{{ t.apps.content }}</p>
+            <div class="app__grid">
+                <div class="app__row">
+                  {% for app in t.apps.list %}
+                    <a href="{{ app.link }}" class="app__item  {{ app.meta.class }}">
+                        <i class="icon  {{ app.meta.icon }}"></i>
+                        <h2>{{ app.title }}</h2>
+                        <p>{{ app.desc }}</p>
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section__services">
+        <div class="services__content">
+            <h1>{{ t.services.title }}</h1>
+            <p>{{ t.services.desc }}</p>
+            <div class="services__grid">
+                <div class="services__row">
+                  {% for service in t.services.list %}
+                    <div class="services__item">
+                        <i class="icon   {{ service.meta.icon }}"></i>
+                        <h2>{{ service.title }}</h2>
+                        <p>{{ service.desc }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section__clients">
+        <div class="content">
+            <h1>{{ t.clients.title }}</h1>
+            <p>{{ t.clients.desc}}</p>
+            {% for client in t.clients.list %}
+            <img src="{{ client.img }}" />
+            {% endfor %}
+        </div>
+    </div>
+    <div class="section__press">
+        <div class="content">
+            <h1>{{ t.press.title }}</h1>
+            <p>{{ t.press.desc }}</p>
+            {% for press in t.press.list %}
+            <div class="press__entry">
+                <div class="{{ press.meta.icon }}"></div>
+                <div class="entry__text">{{ press.desc }}</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer__content">
+            <div>
+                <h4>Cívica Digital 2014</h4><!--
+             --><a class="footer__mail" href="mailto:info@civica.digital">info@civica.digital</a>
+            </div><!--
+         --><div>
+                <a href="apps.html">Apps</a><!--
+             --><a href="servicios.html">Servicios</a><!--
+             --><a href="equipo.html">Equipo</a>
+            </div><!--
+         --><div>
+                <a href="empleos.html">Empleos</a><!--
+             --><a href="http://blog.codeandomexico.org/" target="_blank">Blog</a><!--
+             --><a href="index.html">Press Kit</a>
+            </div><!--
+         --><div>
+                <a class="footer__icon-link" href="http://codeandomexico.org" target="_blank"><i class="icon  icon-logo-codeando"></i>Codeando México</a><!--
+             --><a class="footer__icon-link" href="http://datamx.io" target="_blank"><i class="icon  icon-logo-datamx"></i>DataMX</a>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+<script type="text/javascript" src="js/respond.js"></script>
+</body>
+</html>
