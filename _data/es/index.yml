@@ -2,14 +2,14 @@ title: Cívica Digital
 
 intro:
   img: images/logo--white.svg
-  content: Frase super inspiradora de la visión y/o misión de Cívica Digital.
+  content: Desarrollamos tecnología útil para los ciudadanos con los ciudadanos.
 
 projects:
-  title: Proyectos
+  title: Hacemos proyectos con la gente
   content: >
-    Conoce algunos de nuestros proyectos blablabla. La mayoría son open source o
-    yo qué sé;. Un poco más de rollo. Explicar brevemente tamaño tweet o dos
-    tweets o algo así.
+    Cada uno de nuestros proyectos tiene un componente cívico, dentro del cual fomentamos 
+    una mejor calidad en los servicios públicos, mayor apertura de los gobiernos y el 
+    empoderamiento de las organizaciones de la sociedad civil con quienes trabajamos. 
   list:
     - title: Data MX
       link: http://datamx.io
@@ -25,55 +25,71 @@ projects:
         classes: project--codeando
 
 apps:
-  title: Aplicaciones
+  title: Nuestros productos
   content: >
-    Conoce algunos de nuestros proyectos blablabla. La mayor&iacute;a son open
-    source o yo qu&eacute; s&eacute;. Un poco más de rollo.
-    Explicar brevemente tamaño tweet o dos tweets o algo así.
+    Desarrollamos productos que atienden a problemáticas ciudadanas específicas. 
+    Diseñadas de la mano del ciudadano, enfocadas en resolver problemas ciudadanos 
+    y hacer de los procesos públicos más efectivos y abiertos. 
+
   list:
     - title: Aquila
-      desc: La plataforma cívica de datos abiertos de México
+      desc: Motor de Participación Ciudadana
       link: apps/aquila.html
       meta:
         class: app--aquila
         icon: icon-medal
 
-    - title: Open Data
-      desc: La comunidad blabla retos abiertos lorem ipsum.
-      link: apps/aquila.html
+    - title: Elige Tu Escuela
+      desc: Mejora del Servicio de Inscripciones
+
+      link: apps/eige-tu-escuela.html
       meta:
-        class: app--opendata
+        class: app--escuela
         icon: icon-database
 
-    - title: Urbem
-      desc: La comunidad blabla retos abiertos lorem ipsum.
-      link: apps/aquila.html
+    - title: URBEM
+      desc: Mejora de Servicios a través de evaluaciones ciudadanas.
+      link: apps/urbem.html
+      meta:
+        class: app--urbem
+        icon: icon-message
+
+    - title: Empleo Abierto
+      desc: Profesionalización de la Administración Pública.
+      link: apps/empleoabierto.html
+      meta:
+        class: app--urbem
+        icon: icon-message
+
+    - title: TRAXI
+      desc: Mejora del Servicio de Taxis.
+      link: apps/traxi.html
       meta:
         class: app--urbem
         icon: icon-message
 
 services:
   title: Servicios
-  desc: ¿Qué podemos hacer por ti?
+  desc: Cívica Digital te puede ayudar de la siguiente forma:
   list:
     - title: Consultoría
-      desc: Lorem ipsum dolor sit amet.
+      desc: Soluciones a la medida, siguiendo metodologías ágiles para asegurarnos de que sea la más efectiva posible.
       meta:
         icon: icon-help
 
     - title: Desarrollo
-      desc: Lorem ipsum dolor sit amet.
+      desc: Entendiendo cuál es la mejor plataforma para desarrollar, creamos una solución una para tu comunidad.
       meta:
         icon: icon-code
 
     - title: Educación
-      desc: Lorem ipsum dolor sit amet.
+      desc: Desde Datos Abiertos, hasta Innovación Abierta, te acompañaremos en el proceso de aprendizaje y ayudaremos a construir capacidades que se queden en tu organización.
       meta:
         icon: icon-book
 
 clients:
-  title: ¿Con qui&eacute;n hemos trabajado?
-  desc: Lorem ipsum dolor sit amet.
+  title: ¿Con quién hemos trabajado?
+  desc: Sabemos que juntos somos más poderosos. Es por esto que siempre buscamos tener aliados que conozcan las problemáticas y que tengan otros acercamientos hacia la problemática. Estos son algunos de ellos: 
   list:
     - img: images/logo_imco.png
     - img: images/logo_presidencia.png
@@ -84,7 +100,7 @@ clients:
 
 press:
   title: Prensa
-  desc: Lorem ipsum dolor sit amet.
+  desc: Lo que otros han dicho de nosotros.
   list:
     - desc: "El Hacker Cívico: Civic-Minded Techies Gain Sway with Government in Mexico and Beyond"
       meta:

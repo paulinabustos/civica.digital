@@ -1,9 +1,48 @@
 title: apps
 
 desc: >
-  Conoce algunos de nuestros proyectos blablabla. La mayor&iacute;a son open
-  source o yo qu&eacute; s&eacute;. Un poco más de rollo. Explicar brevemente
-  tamaño tweet o dos tweets o algo así.
+ Nuestros Productos ayudan a resolver los problemas de tu comunidad. 
+ Todos nuestros desarrollos atienden a problemáticas específicas. 
+ Diseñadas de la mano del ciudadano, enfocadas en hacer de los procesos públicos más efectivos 
+ y abiertos. 
+
+list:
+    - title: Aquila
+      desc: Motor de Participación Ciudadana
+      link: apps/aquila.html
+      meta:
+        class: app--aquila
+        icon: icon-medal
+
+    - title: Elige Tu Escuela
+      desc: Mejora del Servicio de Inscripciones
+
+      link: apps/eige-tu-escuela.html
+      meta:
+        class: app--escuela
+        icon: icon-database
+
+    - title: URBEM
+      desc: Mejora de Servicios a través de evaluaciones ciudadanas.
+      link: apps/urbem.html
+      meta:
+        class: app--urbem
+        icon: icon-message
+
+    - title: Empleo Abierto
+      desc: Profesionalización de la Administración Pública.
+      link: apps/empleoabierto.html
+      meta:
+        class: app--urbem
+        icon: icon-message
+
+    - title: TRAXI
+      desc: Mejora del Servicio de Taxis.
+      link: apps/traxi.html
+      meta:
+        class: app--urbem
+        icon: icon-message
+
 
 contact:
   desc: Si necesitas apoyo para implementar alguna de nuestras apps o quieres que desarrollemos algo por ti, contáctanos!
