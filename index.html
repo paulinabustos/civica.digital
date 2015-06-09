@@ -16,19 +16,19 @@ lang: es
     </div>
     <div class="section__projects">
         <div class="projects__content">
-            <h1></h1>
-            <p></p>
-            <div class="projects__grid">
-                <div class="projects__row">
-                    {% for project in t.projects.list %}
-                    <a href="{{ project.link }}" target="_blank" class="projects__item  {{ project.meta.classes}}">
-                        <img src="{{ project.img }}" />
-                        <h2>{{ project.title }}</h2>
-                        <p>{{ project.desc }}</p>
-                    </a>
-                    {% endfor %}
-                </div>
-            </div>
+          <h1>{{ t.projects.title }}</h1>
+          <p>{{ t.projects.content }}</p>
+          <div class="projects__grid">
+              <div class="projects__row">
+                  {% for project in t.projects.list %}
+                  <a href="{{ project.link }}" target="_blank" class="projects__item  {{ project.meta.classes}}">
+                      <img src="{{ project.img }}" />
+                      <h2>{{ project.title }}</h2>
+                      <p>{{ project.desc }}</p>
+                  </a>
+                  {% endfor %}
+              </div>
+          </div>
         </div>
     </div>
     <div class="section__apps">
