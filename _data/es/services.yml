@@ -2,7 +2,7 @@ title: Servicios
 
 section:
   - meta:
-      icon: icon-help
+      icon: icon-desarrollo
     title: Desarrollo de aplicaciones Cívicas
     desc: "Desarrollamos soluciones tecnológicas para generar impacto en el ámbito social y público, a través de: "
     list:
@@ -12,7 +12,7 @@ section:
         desc: Aplicaciones cívicas en los sistemas operativos móviles más utilizados.
 
   - meta:
-      icon: icon-code
+      icon: icon-consultoria
     title: Datos abiertos
     desc: "Los Datos Abiertos es un tema que todo tipo de organizaciones deben realizar: Asociaciones Civiles Empresas o Gobiernos. Nosotros te acompañamos durante todo el proceso, desde entender qué son, hasta qué se puede hacer con ellos."
     list:
@@ -24,7 +24,7 @@ section:
         desc: Nosotros te apoyamos y te ayudamos a consturir capacidades dentro de tu equipo, para que no sea un reto tener datos abiertos disponibles.
 
   - meta:
-      icon: icon-book
+      icon: icon-educacion
     title: Innovación Abierta
     desc: Encontrar soluciones a las necesidades de tu organización apoyándote en la comunidad, a través de un proceso abierto en el cual la creatividad de muchos se concentra para llegar al mejor resultado.
 

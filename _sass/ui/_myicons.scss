@@ -219,3 +219,27 @@
     height: 50px;
     display:block;
 }
+
+.#{$icon-css-prefix}-consultoria {
+    content: url(/images/consultoria.svg);
+    position:relative;
+    width: 90px;
+    height: 90px;
+    display:block;
+}
+
+.#{$icon-css-prefix}-desarrollo {
+    content: url(/images/dev.svg);
+    position:relative;
+    width: 90px;
+    height: 90px;
+    display:block;
+}
+
+.#{$icon-css-prefix}-educacion {
+    content: url(/images/educacion.svg);
+    position:relative;
+    width: 90px;
+    height: 90px;
+    display:block;
+}
