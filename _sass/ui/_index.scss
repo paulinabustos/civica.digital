@@ -92,9 +92,19 @@
 			&:first-child{
 				background-color: $color__blue;
 			}
-			&:last-child{
-				background-color: $color__purple;
+            &:nth-child(2){
+                background-color: $color__purple;
+            }
+            &:nth-child(3){
+                background-color: $color__blue;
+            }
+            &:nth-child(4){
+                background-color: $color__purple;
+            }
+            &:last-child{
+				background-color: $color__yellow;
 			}
+            
 			h2{
 				color: $color__background;
 				font-size: 24px;
