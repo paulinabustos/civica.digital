@@ -37,7 +37,7 @@ body .flexgrid__wrapper:first-child {
 	word-break: break-word;
 	margin: 0;
 	margin-bottom: 24px;
-	@include vendor(border-radius, 2px);
+	@include vendor(border-radius, 5px);
 }
 
 
