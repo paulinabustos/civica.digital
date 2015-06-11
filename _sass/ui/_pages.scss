@@ -10,14 +10,14 @@
 	.intro__content{
 		position: absolute;
 		bottom: 0;
-		background-color: rgba(58,177,207,0.8);
+		background-color: $intro__color--background;
 		left: 0;
 		width: 100%;
 		padding: 12px 48px;
 		h1{
 			max-width: 1000px;
 			margin: 0 auto;
-			color: #FFFFFF;
+			color: $intro__color--content;
 			position: relative;
 		}
 	}
@@ -72,8 +72,8 @@
 		position: relative;
 		&:hover{
 			.card__social{
-				background-color: $color__branding;
-				background-color: rgba($color__branding, 0.6);
+				background-color: $card__social--background;
+				background-color: rgba($card__social--background, 0.6);
 			}
 		}
 	}
