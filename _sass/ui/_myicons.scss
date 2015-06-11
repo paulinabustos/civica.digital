@@ -170,3 +170,52 @@
 /**
  * Style icons
  */
+
+
+.#{$icon-css-prefix}-aquila {
+    content: url(/images/aquila.svg);
+    position:relative;
+    width: 50px;
+    height: 50px;
+    display:block;
+}
+
+.#{$icon-css-prefix}-escuela {
+    content: url(/images/escuela.svg);
+    position:relative;
+    width: 50px;
+    height: 50px;
+    display:block;
+}
+
+.#{$icon-css-prefix}-empleoabierto {
+    content: url(/images/empleoabierto.svg);
+    position:relative;
+    width: 50px;
+    height: 50px;
+    display:block;
+}
+
+.#{$icon-css-prefix}-traxi {
+    content: url(/images/traxi.svg);
+    position:relative;
+    width: 50px;
+    height: 50px;
+    display:block;
+}
+
+.#{$icon-css-prefix}-opendata {
+    content: url(/images/opendata.svg);
+    position:relative;
+    width: 50px;
+    height: 50px;
+    display:block;
+}
+
+.#{$icon-css-prefix}-urbem {
+    content: url(/images/urbem.svg);
+    position:relative;
+    width: 50px;
+    height: 50px;
+    display:block;
+}

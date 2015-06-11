@@ -38,7 +38,7 @@ apps:
       link: apps/aquila.html
       meta:
         class: app--aquila
-        icon: icon-medal
+        icon: icon-aquila
 
     - title: Elige Tu Escuela
       desc: Mejora del Servicio de Inscripciones
@@ -46,28 +46,28 @@ apps:
       link: apps/eige-tu-escuela.html
       meta:
         class: app--escuela
-        icon: icon-database
+        icon: icon-escuela
 
     - title: URBEM
       desc: Mejora de Servicios a través de evaluaciones ciudadanas.
       link: apps/urbem.html
       meta:
         class: app--urbem
-        icon: icon-message
+        icon: icon-urbem
 
     - title: Empleo Abierto
       desc: Profesionalización de la Administración Pública.
       link: apps/empleoabierto.html
       meta:
-        class: app--urbem
-        icon: icon-message
+        class: app--escuela
+        icon: icon-empleoabierto
 
     - title: TRAXI
       desc: Mejora del Servicio de Taxis.
       link: apps/traxi.html
       meta:
         class: app--urbem
-        icon: icon-message
+        icon: icon-traxi
 
 services:
   title: Servicios
