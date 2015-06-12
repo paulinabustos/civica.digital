@@ -85,8 +85,8 @@ $color__gray--medium-dark: #4D4D4D;
 $color__gray--dark: #333333;
 
 $color__background: #FFFFFF;
-$color__text: #000000;
-$color__branding: #00abd3;
+$color__text: #011F26;
+$color__branding: #f46c39;
 
 
 $color__blue: #2153ad;
@@ -95,3 +95,11 @@ $color__yellow: #F7C829;
 $color__orange: #f48222;
 $color__red: #ed1c24;
 $color__purple: #5952b2;
+
+$intro__color--background: $color__branding;
+$intro__color--content: $color__background;
+
+$card__social--background: $color__gray--light;
+
+$rect__border--color: #E6E6E6;
+$rect__background--color: $color__gray--light;

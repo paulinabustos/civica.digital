@@ -5,7 +5,7 @@ intro:
   content: Desarrollamos tecnología útil para los ciudadanos, con los ciudadanos.
 
 projects:
-  title: Hacemos proyectos con la gente
+  title: Proyectos
   content: >
     Cada uno de nuestros proyectos tiene un componente cívico, dentro del cual fomentamos
     una mejor calidad en los servicios públicos, mayor apertura de los gobiernos y el
@@ -38,7 +38,7 @@ apps:
       link: apps/aquila.html
       meta:
         class: app--aquila
-        icon: icon-medal
+        icon: icon-aquila
 
     - title: Elige Tu Escuela
       desc: Mejora del Servicio de Inscripciones
@@ -46,28 +46,28 @@ apps:
       link: apps/eige-tu-escuela.html
       meta:
         class: app--escuela
-        icon: icon-database
+        icon: icon-escuela
 
     - title: URBEM
       desc: Mejora de Servicios a través de evaluaciones ciudadanas.
       link: apps/urbem.html
       meta:
         class: app--urbem
-        icon: icon-message
+        icon: icon-urbem
 
     - title: Empleo Abierto
       desc: Profesionalización de la Administración Pública.
       link: apps/empleoabierto.html
       meta:
-        class: app--urbem
-        icon: icon-message
+        class: app--escuela
+        icon: icon-empleoabierto
 
     - title: TRAXI
       desc: Mejora del Servicio de Taxis.
       link: apps/traxi.html
       meta:
         class: app--urbem
-        icon: icon-message
+        icon: icon-traxi
 
 services:
   title: Servicios
@@ -76,17 +76,17 @@ services:
     - title: Consultoría
       desc: Soluciones a la medida, siguiendo metodologías ágiles para asegurarnos de que sea la más efectiva posible.
       meta:
-        icon: icon-help
+        icon: icon-consultoria
 
     - title: Desarrollo
       desc: Entendiendo cuál es la mejor plataforma para desarrollar, creamos una solución una para tu comunidad.
       meta:
-        icon: icon-code
+        icon: icon-desarrollo
 
     - title: Educación
       desc: Desde Datos Abiertos, hasta Innovación Abierta, te acompañaremos en el proceso de aprendizaje y ayudaremos a construir capacidades que se queden en tu organización.
       meta:
-        icon: icon-book
+        icon: icon-educacion
 
 clients:
   title: ¿Con quién hemos trabajado?
