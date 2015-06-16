@@ -14,7 +14,7 @@ section:
   - meta:
       icon: icon-code
     title: Datos abiertos
-    desc: "Los Datos Abiertos es un tema que todo tipo de organizaciones deben realizar: Asociaciones Civiles Empresas o Gobiernos. Nosotros te acompañamos durante todo el proceso, desde entender qué son, hasta qué se puede hacer con ellos."
+    desc: 
     list:
       - title:  Plataformas
         desc: Cada organización es distinta. Podemos ayudarte a elegir, implementar y decidir cómo es que mostrarás tus datos.
