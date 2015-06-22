@@ -165,15 +165,16 @@
 .#{$icon-css-prefix}-5x { font-size: 5em; }
 
 /*------------------------------------*\
+    ICON ROTATION
 \*------------------------------------*/
-/*    ICON ROTATION
+
 /**
  * Style icons
  */
 
 
 .#{$icon-css-prefix}-aquila {
-    content: url(../images/aquila.svg);
+    content: url(#{$basepath}/images/aquila.svg);
     position:relative;
     width: 50px;
     height: 50px;
@@ -181,7 +182,7 @@
 }
 
 .#{$icon-css-prefix}-escuela {
-    content: url(../images/escuela.svg);
+    content: url(#{$basepath}/images/escuela.svg);
     position:relative;
     width: 50px;
     height: 50px;
@@ -189,7 +190,7 @@
 }
 
 .#{$icon-css-prefix}-empleoabierto {
-    content: url(../images/empleoabierto.svg);
+    content: url(#{$basepath}/images/empleoabierto.svg);
     position:relative;
     width: 50px;
     height: 50px;
@@ -197,7 +198,7 @@
 }
 
 .#{$icon-css-prefix}-traxi {
-    content: url(../images/traxi.svg);
+    content: url(#{$basepath}/images/traxi.svg);
     position:relative;
     width: 50px;
     height: 50px;
@@ -205,7 +206,7 @@
 }
 
 .#{$icon-css-prefix}-opendata {
-    content: url(../images/opendata.svg);
+    content: url(#{$basepath}/images/opendata.svg);
     position:relative;
     width: 50px;
     height: 50px;
@@ -213,7 +214,7 @@
 }
 
 .#{$icon-css-prefix}-urbem {
-    content: url(../images/urbem.svg);
+    content: url(#{$basepath}/images/urbem.svg);
     position:relative;
     width: 50px;
     height: 50px;
@@ -221,7 +222,7 @@
 }
 
 .#{$icon-css-prefix}-consultoria {
-    content: url(../images/consultoria.svg);
+    content: url(#{$basepath}/images/consultoria.svg);
     position:relative;
     width: 90px;
     height: 90px;
@@ -229,7 +230,7 @@
 }
 
 .#{$icon-css-prefix}-desarrollo {
-    content: url(../images/dev.svg);
+    content: url(#{$basepath}/images/dev.svg);
     position:relative;
     width: 90px;
     height: 90px;
@@ -237,7 +238,7 @@
 }
 
 .#{$icon-css-prefix}-educacion {
-    content: url(../images/educacion.svg);
+    content: url(#{$basepath}/images/educacion.svg);
     position:relative;
     width: 90px;
     height: 90px;

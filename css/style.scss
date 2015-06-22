@@ -14,8 +14,8 @@
  *
  */
 
-/** 
- * Credits: 
+/**
+ * Credits:
  *  - Taxi icon by iconsmind.com for The Noun Project
  *  - Hand icon by Maico Amorim for The Noun Project
  *  - Open Box icon by Five by Five for The Noun Project
@@ -27,6 +27,13 @@
 /**
  * INUIT Setup
  */
+
+$basepath: "";
+
+{% if site.baseurl != "" and site.baseurl != null %}
+  $basepath: {{ site.baseurl }};
+{% endif %}
+
 @import "vars";
 @import "inuit.css/inuit";
 @import "ui/myicons";
