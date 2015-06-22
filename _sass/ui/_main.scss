@@ -206,3 +206,14 @@
 		background-color: rgba($color__branding, 0.2);
 	}
 }
+
+.btn--drop {
+	border-radius: 5px;
+	background-color: $color__branding;
+	text-align: center;
+	color: $color__background;
+	padding: 15px;
+	font-family: "Blogger Sans";
+	font-size: 24px;
+	margin: 0 auto;
+}
