@@ -167,13 +167,14 @@
 /*------------------------------------*\
     ICON ROTATION
 \*------------------------------------*/
+
 /**
  * Style icons
  */
 
 
 .#{$icon-css-prefix}-aquila {
-    content: url(/images/aquila.svg);
+    content: url(#{$basepath}/images/aquila.png);
     position:relative;
     width: 50px;
     height: 50px;
@@ -181,7 +182,7 @@
 }
 
 .#{$icon-css-prefix}-escuela {
-    content: url(/images/escuela.svg);
+    content: url(#{$basepath}/images/escuela.png);
     position:relative;
     width: 50px;
     height: 50px;
@@ -189,7 +190,7 @@
 }
 
 .#{$icon-css-prefix}-empleoabierto {
-    content: url(/images/empleoabierto.svg);
+    content: url(#{$basepath}/images/empleoabierto.png);
     position:relative;
     width: 50px;
     height: 50px;
@@ -197,7 +198,7 @@
 }
 
 .#{$icon-css-prefix}-traxi {
-    content: url(/images/traxi.svg);
+    content: url(#{$basepath}/images/traxi.png);
     position:relative;
     width: 50px;
     height: 50px;
@@ -205,7 +206,7 @@
 }
 
 .#{$icon-css-prefix}-opendata {
-    content: url(/images/opendata.svg);
+    content: url(#{$basepath}/images/opendata.png);
     position:relative;
     width: 50px;
     height: 50px;
@@ -213,7 +214,7 @@
 }
 
 .#{$icon-css-prefix}-urbem {
-    content: url(/images/urbem.svg);
+    content: url(#{$basepath}/images/urbem.png);
     position:relative;
     width: 50px;
     height: 50px;
@@ -221,7 +222,7 @@
 }
 
 .#{$icon-css-prefix}-consultoria {
-    content: url(/images/consultoria.svg);
+    content: url(#{$basepath}/images/consultoria.png);
     position:relative;
     width: 90px;
     height: 90px;
@@ -229,7 +230,7 @@
 }
 
 .#{$icon-css-prefix}-desarrollo {
-    content: url(/images/dev.svg);
+    content: url(#{$basepath}/images/dev.png);
     position:relative;
     width: 90px;
     height: 90px;
@@ -237,7 +238,7 @@
 }
 
 .#{$icon-css-prefix}-educacion {
-    content: url(/images/educacion.svg);
+    content: url(#{$basepath}/images/educacion.png);
     position:relative;
     width: 90px;
     height: 90px;
