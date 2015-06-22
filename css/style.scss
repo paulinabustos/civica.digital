@@ -30,9 +30,12 @@
 
 $basepath: "";
 
-{% if site.baseurl != "" and site.baseurl != null %}
-  $basepath: {{ site.baseurl }};
-{% endif %}
+
+{% assign depth = page.url | split: '/' | size | minus: 1 %}
+{% if    depth == 1 %} $basepath: '.';
+{% elsif depth == 2 %} $basepath: '..';
+{% elsif depth == 3 %} $basepath: '../..';
+{% elsif depth == 4 %} $basepath: '../../..'; {% endif %}
 
 @import "vars";
 @import "inuit.css/inuit";
