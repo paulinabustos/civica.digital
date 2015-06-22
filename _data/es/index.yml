@@ -1,7 +1,7 @@
 title: Cívica Digital
 
 intro:
-  img: images/logo--white.svg
+  img: images/logo--white.png
   content: Desarrollamos tecnología útil para los ciudadanos, con los ciudadanos.
 
 projects:
@@ -10,7 +10,7 @@ projects:
     Cada uno de nuestros proyectos tiene un componente cívico, dentro del cual fomentamos
     una mejor calidad en los servicios públicos, mayor apertura de los gobiernos y el
     empoderamiento de las organizaciones de la sociedad civil con quienes trabajamos.
-  
+
   list:
     - title: Data MX
       link: http://datamx.io
