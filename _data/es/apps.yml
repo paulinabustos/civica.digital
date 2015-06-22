@@ -1,10 +1,12 @@
 title: apps
 
 desc: >
- Nuestros Productos ayudan a resolver los problemas de tu comunidad. 
- Todos nuestros desarrollos atienden a problemáticas específicas. 
- Diseñadas de la mano del ciudadano, enfocadas en hacer de los procesos públicos más efectivos 
- y abiertos. 
+ Nuestros Productos ayudan a resolver los problemas de tu comunidad.
+ Todos nuestros desarrollos atienden a problemáticas específicas.
+ Diseñadas de la mano del ciudadano, enfocadas en hacer de los procesos públicos más efectivos
+ y abiertos.
+
+image: /alguna/imagen.png
 
 list:
     - title: Aquila
