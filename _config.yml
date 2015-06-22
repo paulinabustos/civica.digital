@@ -6,6 +6,6 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://civica.digital" # the base hostname & protocol for your sites
 github_username:  civica-digital
-twitter: @civicadigital
+twitter: "@civicadigital"
 # Build settings
 markdown: kramdown
