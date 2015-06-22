@@ -1,5 +1,9 @@
 <div class="bar--top">
-  <img class="bar__logo" src="images/logo--black.svg" />
+  {% if page.lang == "es" %}
+  <a href="/"><img class="bar__logo" src="images/logo--black.svg" /></a>
+  {% else %}
+  <a href="/{{ page.lang }}"><img class="bar__logo" src="images/logo--black.svg" /></a>
+  {% endif %}
   <div id="js-btn--menu" class="bar__btn"><i class="icon  icon-menu"></i></div>
   <div id="js-bar__menu" class="bar__menu">
     <div class="bar__social">
