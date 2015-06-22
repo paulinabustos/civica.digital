@@ -12,10 +12,10 @@
       <div class="bar__lang"><span>EN</span>|<span class="selected">ES</span></div>
     </div>
     <div class="bar__nav">
-      <a href="index.html" id="btn--nav__home" class="selected">C&iacute;vica Digital</a>
-      <a href="apps.html" id="btn--nav__show">Apps</a>
-      <a href="servicios.html" id="btn--nav__serv">Servicios</a>
-      <a href="equipo.html" id="btn--nav__team">Equipo</a>
+      <a href="index.html" id="btn--nav__home" {% if page.name == "index.html" %} class="selected" {% endif %}>Cívica Digital</a>
+      <a href="apps.html" id="btn--nav__show" {% if page.name == "apps.html" %} class="selected" {% endif %}>Apps</a>
+      <a href="servicios.html" id="btn--nav__serv" {% if page.name == "servicios.html" %} class="selected" {% endif %}>Servicios</a>
+      <a href="equipo.html" id="btn--nav__team" {% if page.name == "equipo.html" %} class="selected" {% endif %}>Equipo</a>
     </div>
   </div>
 </div>
