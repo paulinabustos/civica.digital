@@ -2,7 +2,10 @@ title: Servicios
 desc: Una corta descripción
 image: /alguna/imagen.png
 
-button: Cómo podemos ayudarte
+btn:
+  msg: Cómo podemos ayudarte
+  link: "#"
+
 section:
   - meta:
       icon: icon-desarrollo

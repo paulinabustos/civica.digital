@@ -1,0 +1,96 @@
+---
+layout: default
+---
+
+
+{% assign depth = page.url | split: '/' | size | minus: 1 %}
+{% if    depth == 1 %}
+{% assign basepath = './' %}
+{% elsif depth == 2 %}
+{% assign basepath = '../' %}
+{% endif %}
+
+{% assign pagename = page.name | remove: '.html' %}
+{% assign t = site.data[page.lang][pagename] %}
+    <div class="index__intro">
+        <div class="intro__overlay"></div>
+        <div class="intro__wrapper">
+            <div class="intro__content">
+                <img class="intro__logo" src="{{ basepath }}{{ t.intro.img }}" />
+                <p>{{ t.intro.content }}</p>
+                <a href="{{ t.btn.link }}" class="btn--drop">{{ t.btn.msg }}</a>
+              </div>
+        </div>
+    </div>
+    <div class="section__projects">
+        <div class="projects__content">
+          <h1>{{ t.projects.title }} {{ page.url}}</h1>
+          <p>{{ t.projects.content }}</p>
+          <div class="projects__grid">
+              <div class="projects__row">
+                  {% for project in t.projects.list %}
+                  <a href="{{ project.link }}" target="_blank" class="projects__item  {{ project.meta.classes}}">
+                      <img src="{{ basepath }}/{{ project.img }}" />
+                      <h2>{{ project.title }}</h2>
+                      <p>{{ project.desc }}</p>
+                  </a>
+                  {% endfor %}
+              </div>
+          </div>
+        </div>
+    </div>
+    <div class="section__apps">
+        <div class="apps__content">
+            <h1>{{ t.apps.title }}</h1>
+            <p>{{ t.apps.content }}</p>
+            <div class="app__grid">
+                <div class="app__row">
+                  {% for app in t.apps.list %}
+                    <a href="{{ app.link }}" class="app__item  {{ app.meta.class }}">
+                        <i class="icon  {{ app.meta.icon }}"></i>
+                        <h2>{{ app.title }}</h2>
+                        <p>{{ app.desc }}</p>
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section__services">
+        <div class="services__content">
+            <h1>{{ t.services.title }}</h1>
+            <p>{{ t.services.desc }}</p>
+            <div class="services__grid">
+                <div class="services__row">
+                  {% for service in t.services.list %}
+                    <div class="services__item">
+                        <i class="icon   {{ service.meta.icon }}"></i>
+                        <h2>{{ service.title }}</h2>
+                        <p>{{ service.desc }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section__clients">
+        <div class="content">
+            <h1>{{ t.clients.title }}</h1>
+            <p>{{ t.clients.desc}}</p>
+            {% for client in t.clients.list %}
+            <img src="{{ basepath }}/{{ client.img }}" />
+            {% endfor %}
+        </div>
+    </div>
+    <div class="section__press">
+        <div class="content">
+            <h1>{{ t.press.title }}</h1>
+            <p>{{ t.press.desc }}</p>
+            {% for press in t.press.list %}
+            <div class="press__entry">
+                <div class="{{ press.meta.icon }}"></div>
+                <div class="entry__text">{{ press.desc }}</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
