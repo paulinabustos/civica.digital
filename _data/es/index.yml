@@ -1,6 +1,9 @@
 title: Cívica Digital
 desc: Una corta descripción
 image: /alguna/imagen.png
+btn:
+  msg: call to action
+  link: "#"
 
 intro:
   img: images/logo--white.png
