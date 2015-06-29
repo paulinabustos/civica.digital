@@ -1,23 +1,25 @@
+{% assign pagename = page.name | remove: '.html' %}
+{% assign t = site.data[page.lang][pagename] %}
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
   <title>{{ t.title }}</title>
-  <link rel="shortcut icon" href="favicon.ico"/>
+  <link rel="shortcut icon" href="/favicon.ico"/>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="{{ basepath }}css/style.css">
 
   <meta property="og:title" content="{{ t.title}}">
   <meta property="og:site_name" content="{{ site.title }}">
-  <meta property="og:url" content="{{ page.url }}">
+  <meta property="og:url" content="{{site.url}}{{ page.url }}">
   <meta property="og:description" content="{{ t.desc }}">
   <meta property="og:type" content="website">
   <meta property="og:image" content="{{ t.image }}">
 
   <meta name="twitter:card" content="player">
-  <meta name="twitter:site" content="{{ site.twitter}}">
+  <meta name="twitter:site" content="{{ site.twitter }}">
   <meta name="twitter:title" content="{{ t.title }}">
   <meta name="twitter:description" content="{{ t.desc }}">
   <meta name="twitter:image:src" content="{{ t.image }}">
   <meta name="twitter:player" content="">
-
 </head>
