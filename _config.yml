@@ -8,9 +8,11 @@ url: "http://civica.digital" # the base hostname & protocol for your sites
 github_username:  civica-digital
 twitter: "@civicadigital"
 
+analytics: UA-XXXXX-X
+
 langs:
   - en
   - es
-  
+
 # Build settings
 markdown: kramdown
