@@ -1,6 +1,8 @@
 WEBSITE CÍVICA DIGITAL
 ======================
 
+[![Build Status](https://travis-ci.org/civica-digital/civica.digital.svg)](https://travis-ci.org/civica-digital/civica.digital)
+
 ## Instalación / Configuración
 
 Necesitamos tener instaladas las dependecias, bastará el siguiente comando:

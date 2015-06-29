@@ -7,3 +7,4 @@ gem 'therubyracer'
 gem 'guard'
 gem 'guard-livereload'
 gem 'jekyll', '>= 2.0.0'
+gem "html-proofer"
