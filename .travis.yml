@@ -1,17 +1,15 @@
 language: ruby
 rvm:
 - 2.1
-script: ./script/cibuild
-
-# branch whitelist
+script: "./script/cibuild"
 branches:
   only:
   - gh-pages
-  - /pages-(.*)/
-  - /post-(.*)
-
+  - "/pages-(.*)/"
+  - "/post-(.*)"
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-
-exclude: [vendor]
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+notifications:
+  slack:
+    secure: jwiqbZi5YfZ3+5uodkNpNdmaVhLrsu+C3wsUSjPlNH6U4Byshj23HZ1dih3z1+afbFLUpQgVDUB5j/vyPnK1jM4xQdpymDGXLVuPwFL8uOy/eW7WEmXFj87DgXzdk9QXJNt2mAYSHPxNiznLIKu+wzpwUqXufRcZP94AhbKu6ogTSaI6DTahSOsCXXsIPSnlm5lZvrjZTylqTIpzjE9SG/TNYr55ZsqshA8Xt2bYAxEoWZugWg5HLkV4VIRSxTydZ0HBmGanyYsdghSHYetO4pMNe5CTWKzbxFUT48vYr4NK7riO/LuoWmgenzWb4/FpJkE7x3ARWupl26n3Mn3KAkhyFKLqKpDD1/nyUxb9M3lqStu4ZVK+zHznf2GeZRxncrUMapV7oHJ2p+nV9Qcb7iKfZOdVU3T7a7+YxoBFfac19SzI9giLr4Kb01s71C+ITP+1fc/tFEIKZuJBDddNcjIwuuzZdJEaVCWRenfikOY91IMZuGJ1c68wI4HeQr7tjoCbXAVcN9EbbbN9niog3IpvsmtzGJsezTbdKKBPGSFximlyNaAkJ8sJJlvPxMf9+ihrlLSagT4hGKQ42dl64RB16b9iO3GG5zowEeMqUfL3HvOXbHfhVL53vQ0zOvzr/PYb0wFwy1T/ypjPyxNI05lVFlqBgoc3HAcf9FJbbOE=
