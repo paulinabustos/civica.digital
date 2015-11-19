@@ -7,7 +7,7 @@ btn:
 
 intro:
   img: images/logo--white.png
-  content: Desarrollamos tecnología útil para los ciudadanos, con los ciudadanos.
+  content: Construimos herramientas tecnológicas para fortalecer a la ciudadanía.
 
 projects:
   title: Proyectos
@@ -39,40 +39,19 @@ apps:
 
   list:
     - title: Aquila
-      desc: Motor de Participación Ciudadana
+      desc: La plataforma cívica de datos abiertos de México
       link: apps/aquila.html
       meta:
         class: app--aquila
         icon: icon-aquila
 
-    - title: Elige Tu Escuela
-      desc: Mejora del Servicio de Inscripciones
+    - title: Urbem
+      desc: Mejora de servicios a través de evaluaciones ciudadanas
 
-      link: apps/eige-tu-escuela.html
-      meta:
-        class: app--escuela
-        icon: icon-escuela
-
-    - title: URBEM
-      desc: Mejora de Servicios a través de evaluaciones ciudadanas.
       link: apps/urbem.html
       meta:
         class: app--urbem
         icon: icon-urbem
-
-    - title: Empleo Abierto
-      desc: Profesionalización de la Administración Pública.
-      link: apps/empleoabierto.html
-      meta:
-        class: app--escuela
-        icon: icon-empleoabierto
-
-    - title: TRAXI
-      desc: Mejora del Servicio de Taxis.
-      link: apps/traxi.html
-      meta:
-        class: app--urbem
-        icon: icon-traxi
 
 services:
   title: Servicios
