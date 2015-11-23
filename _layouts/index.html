@@ -22,23 +22,6 @@ layout: default
               </div>
         </div>
     </div>
-    <div class="section__projects">
-        <div class="projects__content">
-          <h1>{{ t.projects.title }} {{ page.url}}</h1>
-          <p>{{ t.projects.content }}</p>
-          <div class="projects__grid">
-              <div class="projects__row">
-                  {% for project in t.projects.list %}
-                  <a href="{{ project.link }}" target="_blank" class="projects__item  {{ project.meta.classes}}">
-                      <img src="{{ basepath }}/{{ project.img }}" />
-                      <h2>{{ project.title }}</h2>
-                      <p>{{ project.desc }}</p>
-                  </a>
-                  {% endfor %}
-              </div>
-          </div>
-        </div>
-    </div>
     <div class="section__apps">
         <div class="apps__content">
             <h1>{{ t.apps.title }}</h1>
@@ -67,30 +50,41 @@ layout: default
                         <i class="icon   {{ service.meta.icon }}"></i>
                         <h2>{{ service.title }}</h2>
                         <p>{{ service.desc }}</p>
+                        <div>
+                          {% for element in service.list %}
+                          <h3>{{element.title}}</h3>
+                          <p>{{element.desc}}</p>
+                          {% endfor %}
+                        </div>
                     </div>
                     {% endfor %}
                 </div>
             </div>
         </div>
     </div>
-    <div class="section__clients">
-        <div class="content">
-            <h1>{{ t.clients.title }}</h1>
-            <p>{{ t.clients.desc}}</p>
-            {% for client in t.clients.list %}
-            <img src="{{ basepath }}/{{ client.img }}" />
-            {% endfor %}
-        </div>
-    </div>
-    <div class="section__press">
-        <div class="content">
-            <h1>{{ t.press.title }}</h1>
-            <p>{{ t.press.desc }}</p>
-            {% for press in t.press.list %}
-            <div class="press__entry">
-                <div class="{{ press.meta.icon }}"></div>
-                <div class="entry__text">{{ press.desc }}</div>
+    <div class="section__team">
+        <div class="team__content">
+            <h2>{{ t.team.title }}</h2>
+            <p>{{ t.team.desc }}</p>
+            <div class="team__grid">
+              {% for member in t.team   .list %}<!-- begin hack --><div class="team__card__wrapper">
+                    <div class="team__card">
+                        <div class="card__img">
+                            <img src="{{ basepath }}/{{ member.photo }}" />
+                            <div class="card__social">
+                                <div>
+                                  {% for sn in member.social %}
+                                    <a href="{{ sn.link }}" target="_blank"><i class="icon  icon-social-{{sn.name}}"></i></a>
+                                  {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__text">
+                            <h3>{{ member.name }}</h3>
+                            <p>{{ member.desc }}</p>
+                        </div>
+                    </div>
+                </div><!-- end hack -->{% endfor %}
             </div>
-            {% endfor %}
         </div>
     </div>

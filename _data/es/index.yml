@@ -57,44 +57,66 @@ services:
   title: Servicios
   desc: "Cívica Digital te puede ayudar de la siguiente forma:"
   list:
-    - title: Consultoría
-      desc: Soluciones a la medida, siguiendo metodologías ágiles para asegurarnos de que sea la más efectiva posible.
-      meta:
-        icon: icon-consultoria
-
     - title: Desarrollo
       desc: Entendiendo cuál es la mejor plataforma para desarrollar, creamos una solución una para tu comunidad.
+      list:
+        - title:  Web apps
+          desc: Desde la nube para múltiples dispositivos, websites que funcionan como plataforma.
+        - title: Móviles
+          desc: Aplicaciones iOS / Android simples que generen confianza.
+        - title: Productos
+          desc: Te ayudamos a implementar una de nuestras aplicaciones open source en tu comunidad.
       meta:
         icon: icon-desarrollo
 
+    - title: Consultoría
+      desc: Soluciones a la medida, siguiendo metodologías ágiles para asegurarnos de que sea la más efectiva posible.
+      list:
+        - title: Procesos de apertura
+          desc: Saber por dónde empezar para abrir datos puede ser un reto. Con nuestra metodología basada en mejores prácticas, establecer esta ruta en tu organización será mucho menos complicado.
+        - title: Plataformas & APIs
+          desc: Podemos ayudarte a decidir e implementar cómo abrirás tus datos.
+        - title: Entrenamientos
+          desc: Construye capacidades dentro de tu equipo u organización.
+      meta:
+        icon: icon-consultoria
+
     - title: Educación
       desc: Desde Datos Abiertos, hasta Innovación Abierta, te acompañaremos en el proceso de aprendizaje y ayudaremos a construir capacidades que se queden en tu organización.
+      list:
+        - title: Acompañamiento
+          desc: A través de un proceso abierto, te acompañamos para abrir tus retos a la participación de la comunidad.
+        - title: Entrenamiento
+          desc: Nadie conoce como tú las problemáticas de tu organización. Podemos entrenarte para que utilizar el modelo de innovación abierta se vuelva algo común en tu equipo.
       meta:
         icon: icon-educacion
-
-clients:
-  title: ¿Con quién hemos trabajado?
-  desc: "Sabemos que juntos somos más poderosos. Es por esto que siempre buscamos tener aliados que conozcan las problemáticas y que tengan otros acercamientos hacia la problemática. Estos son algunos de ellos:"
+team:
+  title: Equipo
+  desc: "Lo más importante de nuestro desarrollo es la gente. El equipo multidisciplinario de Cívica Digital tiene una amplia experiencia tanto en el campo tecnológico como en el ciudadano, siempre con la mirada a resolver los problemas de la manera más efectiva."
   list:
-    - img: images/logo_imco.png
-    - img: images/logo_presidencia.png
-    - img: images/logo_bogota.png
-    - img: images/logo_fondeso.png
-    - img: images/logo_usaid.png
-    - img: images/logo_transparencia.png
+    - name: Juan Pablo Escobar
+      desc: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros.
+      photo: images/foto-jp.jpg
+      social:
+        - name: github
+          link: https://github.com/juanpabloe
+        - name: twitter
+          link: https://twitter.com/juanpabloe
+        - name: linkedin
+          link: https://linkedin.com/in/juanpabloe
 
-press:
-  title: Prensa
-  desc: Lo que otros han dicho de nosotros.
-  list:
-    - desc: "El Hacker Cívico: Civic-Minded Techies Gain Sway with Government in Mexico and Beyond"
-      meta:
-        icon: icon--hp
 
-    - desc: "Bringing Down The Mexican Tech Mafia: How Hackers Stopped A $9.3 Million Fraud"
-      meta:
-        icon: icon--tc
-
-    - desc: "El reto de los retos públicos en México [FW Interviú]"
-      meta:
-        icon: icon--fw
+    - name: Manuel Morato
+      desc: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros.
+      photo: images/foto-eme.jpg
+      social:
+        - name: github
+          link: https://github.com/ememorato
+        - name: twitter
+          link: https://twitter.com/ememorato
+        - name: linkedin
+          link: https://linkedin.com/in/ememorato
