@@ -2,33 +2,12 @@ title: Cívica Digital
 desc: Una corta descripción
 image: /alguna/imagen.png
 btn:
-  msg: call to action
+  msg: "escríbenos"
   link: "#"
 
 intro:
   img: images/logo--white.png
   content: Construimos herramientas tecnológicas para fortalecer a la ciudadanía.
-
-projects:
-  title: Proyectos
-  content: >
-    Cada uno de nuestros proyectos tiene un componente cívico, dentro del cual fomentamos
-    una mejor calidad en los servicios públicos, mayor apertura de los gobiernos y el
-    empoderamiento de las organizaciones de la sociedad civil con quienes trabajamos.
-
-  list:
-    - title: Data MX
-      link: http://datamx.io
-      img: images/logo_datamx--white.svg
-      desc: La plataforma cívica de datos abiertos de México
-      meta:
-        classes: project--data
-    - title: Codeando México
-      link: http://codeandomexico.org
-      img: images/logo_codeando--white.svg
-      desc: La comunidad blabla retos abiertos lorem ipsum.
-      meta:
-        classes: project--codeando
 
 apps:
   title: Nuestros productos
@@ -107,8 +86,20 @@ team:
         - name: linkedin
           link: https://linkedin.com/in/juanpabloe
 
+    - name: Paulina Bustos Arellano
+      desc: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros.
+      photo: images/foto-eme.jpg
+      social:
+        - name: github
+          link: https://github.com/ememorato
+        - name: twitter
+          link: https://twitter.com/ememorato
+        - name: linkedin
+          link: https://linkedin.com/in/ememorato
 
-    - name: Manuel Morato
+    - name: Noé Domínguez
       desc: >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
         ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros.

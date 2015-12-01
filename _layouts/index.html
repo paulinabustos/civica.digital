@@ -67,7 +67,7 @@ layout: default
             <h2>{{ t.team.title }}</h2>
             <p>{{ t.team.desc }}</p>
             <div class="team__grid">
-              {% for member in t.team   .list %}<!-- begin hack --><div class="team__card__wrapper">
+              {% for member in t.team.list %}<!-- begin hack --><div class="team__card__wrapper">
                     <div class="team__card">
                         <div class="card__img">
                             <img src="{{ basepath }}/{{ member.photo }}" />
