@@ -6,16 +6,16 @@
   {% endif %}
   <div id="js-btn--menu" class="bar__btn"><i class="icon  icon-menu"></i></div>
   <div id="js-bar__menu" class="bar__menu">
-    <div class="bar__social">
-      <a href="https://twitter.com/CodeandoMexico" target="_blank"><i class="icon  icon-social-twitter"></i></a>
-      <a href="https://github.com/CodeandoMexico" target="_blank"><i class="icon  icon-social-github"></i></a>
-      <div class="bar__lang">
-        {% for lang in site.langs %}<!--
-        --><span {% if page.lang == lang %} class="selected" {% endif %}>{{ lang | upcase }}</span><!--
-      -->{% if forloop.last != true %}|{% endif %}{% endfor %}</div>
-    </div>
     <div class="bar__nav">
-      <a href="http://blog.civica.digital" id="btn--nav__show" {% if page.name == "apps.html" %} class="selected" {% endif %}>Blog</a>
+      <a href="http://blog.civica.digital" id="btn--nav__show">Blog</a>
+    </div>
+    <div class="bar__social">
+      <!--
+      <div class="bar__lang">
+        {% for lang in site.langs %}
+        <span {% if page.lang == lang %} class="selected" {% endif %}>{{ lang | upcase }}</span>
+      {% if forloop.last != true %}|{% endif %}{% endfor %}</div>
+      -->
     </div>
   </div>
 </div>
