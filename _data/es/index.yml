@@ -73,11 +73,13 @@ team:
   title: Equipo
   desc: "Lo más importante de nuestro desarrollo es la gente. El equipo multidisciplinario de Cívica Digital tiene una amplia experiencia tanto en el campo tecnológico como en el ciudadano, siempre con la mirada a resolver los problemas de la manera más efectiva."
   list:
-    - name: Juan Pablo Escobar
+    - name: Juan Pablo Escobar L.
+      role: CEO
       desc: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros.
-      photo: images/foto-jp.jpg
+        Tecnólogo. JP es el editor en jefe del equipo, estrategia y los
+        productos de software que construimos.
+
+      photo: images/equipo/jp.png
       social:
         - name: github
           link: https://github.com/juanpabloe

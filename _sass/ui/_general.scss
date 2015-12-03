@@ -30,6 +30,19 @@
     transition: $attribute $animation-time ease;
 }
 
+@mixin grayscale-animation($filter-opacity, $animation-time){
+    -webkit-filter: grayscale($filter-opacity);
+    -webkit-transition: $animation-time ease-in-out;
+    -moz-filter: grayscale($filter-opacity);
+    -moz-transition: $animation-time ease-in-out;
+    -o-filter: grayscale($filter-opacity);
+    -o-transition: $animation-time ease-in-out;
+    -ms-filter: grayscale($filter-opacity);
+    -ms-transition: $animation-time ease-in-out;
+    filter: grayscale($filter-opacity);
+    transition: $animation-time ease-in-out;
+}
+
 %title{ //title silent class, won't appear unless extended. Yours to define. 
     font-weight: 500;
     font-family: 'Blogger Sans', 'Open Sans', sans-serif;
