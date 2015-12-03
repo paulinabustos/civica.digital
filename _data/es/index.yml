@@ -2,36 +2,15 @@ title: Cívica Digital
 desc: Una corta descripción
 image: /alguna/imagen.png
 btn:
-  msg: call to action
+  msg: "escríbenos"
   link: "#"
 
 intro:
   img: images/logo--white.png
-  content: Desarrollamos tecnología útil para los ciudadanos, con los ciudadanos.
-
-projects:
-  title: Proyectos
-  content: >
-    Cada uno de nuestros proyectos tiene un componente cívico, dentro del cual fomentamos
-    una mejor calidad en los servicios públicos, mayor apertura de los gobiernos y el
-    empoderamiento de las organizaciones de la sociedad civil con quienes trabajamos.
-
-  list:
-    - title: Data MX
-      link: http://datamx.io
-      img: images/logo_datamx--white.svg
-      desc: La plataforma cívica de datos abiertos de México
-      meta:
-        classes: project--data
-    - title: Codeando México
-      link: http://codeandomexico.org
-      img: images/logo_codeando--white.svg
-      desc: La comunidad blabla retos abiertos lorem ipsum.
-      meta:
-        classes: project--codeando
+  content: Construimos herramientas tecnológicas para fortalecer a la ciudadanía.
 
 apps:
-  title: Nuestros productos
+  title: Productos
   content: >
     Desarrollamos productos que atienden a problemáticas ciudadanas específicas.
     Diseñadas de la mano del ciudadano, enfocadas en resolver problemas ciudadanos
@@ -39,83 +18,197 @@ apps:
 
   list:
     - title: Aquila
-      desc: Motor de Participación Ciudadana
-      link: apps/aquila.html
+      desc: Motor de participación ciudadana
+      link:
       meta:
         class: app--aquila
         icon: icon-aquila
 
-    - title: Elige Tu Escuela
-      desc: Mejora del Servicio de Inscripciones
+    - title: Urbem
+      desc: Mejora de servicios públicos a través de evaluaciones ciudadanas
 
-      link: apps/eige-tu-escuela.html
-      meta:
-        class: app--escuela
-        icon: icon-escuela
-
-    - title: URBEM
-      desc: Mejora de Servicios a través de evaluaciones ciudadanas.
       link: apps/urbem.html
       meta:
         class: app--urbem
         icon: icon-urbem
 
-    - title: Empleo Abierto
-      desc: Profesionalización de la Administración Pública.
-      link: apps/empleoabierto.html
-      meta:
-        class: app--escuela
-        icon: icon-empleoabierto
-
-    - title: TRAXI
-      desc: Mejora del Servicio de Taxis.
-      link: apps/traxi.html
-      meta:
-        class: app--urbem
-        icon: icon-traxi
-
 services:
   title: Servicios
   desc: "Cívica Digital te puede ayudar de la siguiente forma:"
   list:
-    - title: Consultoría
-      desc: Soluciones a la medida, siguiendo metodologías ágiles para asegurarnos de que sea la más efectiva posible.
-      meta:
-        icon: icon-consultoria
-
     - title: Desarrollo
       desc: Entendiendo cuál es la mejor plataforma para desarrollar, creamos una solución una para tu comunidad.
+      list:
+        - title:  Web apps
+          desc: Desde la nube para múltiples dispositivos, websites que funcionan como plataforma.
+        - title: Móviles
+          desc: Aplicaciones iOS / Android simples que generen confianza.
+        - title: Productos
+          desc: Te ayudamos a implementar una de nuestras aplicaciones open source en tu comunidad.
       meta:
         icon: icon-desarrollo
 
+    - title: Consultoría
+      desc: Soluciones a la medida, siguiendo metodologías ágiles para asegurarnos de que sea la más efectiva posible.
+      list:
+        - title: Procesos de apertura
+          desc: Saber por dónde empezar para abrir datos puede ser un reto. Con nuestra metodología basada en mejores prácticas, establecer esta ruta en tu organización será mucho menos complicado.
+        - title: Plataformas & APIs
+          desc: Podemos ayudarte a decidir e implementar cómo abrirás tus datos.
+        - title: Entrenamientos
+          desc: Construye capacidades dentro de tu equipo u organización.
+      meta:
+        icon: icon-consultoria
+
     - title: Educación
       desc: Desde Datos Abiertos, hasta Innovación Abierta, te acompañaremos en el proceso de aprendizaje y ayudaremos a construir capacidades que se queden en tu organización.
+      list:
+        - title: Acompañamiento
+          desc: A través de un proceso abierto, te acompañamos para abrir tus retos a la participación de la comunidad.
+        - title: Entrenamiento
+          desc: Nadie conoce como tú las problemáticas de tu organización. Podemos entrenarte para que utilizar el modelo de innovación abierta se vuelva algo común en tu equipo.
       meta:
         icon: icon-educacion
-
-clients:
-  title: ¿Con quién hemos trabajado?
-  desc: "Sabemos que juntos somos más poderosos. Es por esto que siempre buscamos tener aliados que conozcan las problemáticas y que tengan otros acercamientos hacia la problemática. Estos son algunos de ellos:"
+team:
+  title: Equipo
+  desc: "Lo más importante de nuestro desarrollo es la gente. El equipo multidisciplinario de Cívica Digital tiene una amplia experiencia tanto en el campo tecnológico como en el ciudadano, siempre con la mirada a resolver los problemas de la manera más efectiva."
   list:
-    - img: images/logo_imco.png
-    - img: images/logo_presidencia.png
-    - img: images/logo_bogota.png
-    - img: images/logo_fondeso.png
-    - img: images/logo_usaid.png
-    - img: images/logo_transparencia.png
+    - name: Juan Pablo Escobar L.
+      role: CEO
+      desc: >
+        Tecnólogo. JP es el editor en jefe del equipo, estrategia y los
+        productos de software que construimos.
 
-press:
-  title: Prensa
-  desc: Lo que otros han dicho de nosotros.
-  list:
-    - desc: "El Hacker Cívico: Civic-Minded Techies Gain Sway with Government in Mexico and Beyond"
-      meta:
-        icon: icon--hp
+      photo: images/equipo/jp.png
+      social:
+        - name: github
+          link: https://github.com/juanpabloe
+        - name: twitter
+          link: https://twitter.com/juanpabloe
+        - name: linkedin
+          link: https://linkedin.com/in/juanpabloe
 
-    - desc: "Bringing Down The Mexican Tech Mafia: How Hackers Stopped A $9.3 Million Fraud"
-      meta:
-        icon: icon--tc
+    - name: Paulina Bustos Arellano
+      role: Operaciones
+      desc: >
+        Un día escuchó de Hacking Cívico y su vida no fue lo mismo, ahora
+        es una ciudadana 24/7.
+      photo: images/equipo/pau.png
+      social:
+        - name: twitter
+          link: https://twitter.com/paulinabustosa
 
-    - desc: "El reto de los retos públicos en México [FW Interviú]"
-      meta:
-        icon: icon--fw
+    - name: Noé Domínguez
+      role: Dev
+      desc: >
+        Desarrollador. Le gustan las comunidades y su impacto positivo.
+        Aprender con libros y con experiencias, siempre hay algo que contar.
+      photo: images/equipo/poguez.png
+      social:
+        - name: github
+          link: https://github.com/poguez
+        - name: twitter
+          link: https://twitter.com/noe_dgz
+
+    - name: Raúl Jiménez
+      role: CTO
+      desc: >
+        Apasionado por crear nuevos productos y servicios. Con un excelente equipo de tecnófilos,
+        busca traer el cool a la tecnología cívica.
+      photo: images/equipo/raul.png
+      social:
+        - name: github
+          link: https://github.com/jimenezjrs
+        - name: twitter
+          link: https://twitter.com/jimenezjrs
+
+    - name: Miguel Ángel Gordian
+      role: Dev
+      desc: >
+        El dev más joven del equipo. Dice ser estudiante, aunque hackea día y noche. Apasionado
+        por las nuevas tecnologías, la comida y el fútbol.
+      photo: images/equipo/ma.png
+      social:
+        - name: github
+          link: https://github.com/zoek1
+        - name: twitter
+          link: https://twitter.com/ilcapitanozoek
+
+    - name: Ricardo Alanís
+      role: Data
+      desc: >
+        Ricardo le encantan los datos y su análisis. Cree que la sociedad es el experimento
+        más importante, y trabaja para ayudar a entenderlo.
+      photo: images/equipo/ric.png
+      social:
+        - name: github
+          link: https://github.com/ricalanis
+        - name: twitter
+          link: https://twitter.com/ric_alanis
+
+    - name: Miguel Morán
+      role: Dev
+      desc: >
+        Mikesaurio. ISC egresado del IPN, con una pasión por el desarrollo web, móvil, DBs y temas de ubicuidad,
+        datos abiertos y  participación ciudadana.
+      photo: images/equipo/mks.png
+      social:
+        - name: github
+          link: https://github.com/mikesaurio
+        - name: twitter
+          link: https://twitter.com/yosoymikesaurio
+
+    - name: Sofía Moya
+      role: Diseño
+      desc: >
+        Diseñadora UI/UX. Amante de la perfección de lo visual, pero fiel creyente de
+        que la usabilidad va siempre por encima de la estética.
+      photo: images/equipo/sofia.png
+      social:
+        - name: twitter
+          link: https://twitter.com/sofia_moya
+
+    - name: Abi Sosa
+      role: Dev
+      desc: >
+        Mamá que programa, aprendiendo a ser multitasking y ciudadana. Convierte
+        el café en aplicaciones web. Resuelve problemas.
+      photo: images/equipo/abi.jpg
+      social:
+        - name: github
+          link: https://github.com/abisosa
+        - name: twitter
+          link: https://twitter.com/abybot
+
+    - name: Adriana Elizondo
+      role: Happiness
+      desc: >
+        Ex burócrata convencida de que la calidad de los productos reside en las personas
+        detrás de ellos. Un día ganó un concurso de cuento.
+      photo: images/equipo/adriana.png
+      social:
+        - name: twitter
+          link: https://twitter.com/adrianamariae
+
+    - name: Sandra Barrón
+      role: Producto
+      desc: >
+        Sandy es diseñadora de producto con experiencia en UX & UI, front-end y back-end.
+      photo: images/equipo/sandy.png
+      social:
+        - name: github
+          link: https://github.com/sandychocochips
+        - name: twitter
+          link: https://twitter.com/sinchips
+
+    - name: Carlos Castellanos
+      role: Dev
+      desc: >
+         Chiapas. Amante de las bicicletas, y del hacking cívico usando open data,
+         iOS y Ruby on Rails como sus herramientas.
+      photo: images/equipo/carlos.png
+      social:
+        - name: github
+          link: https://github.com/sandychocochips
+        - name: twitter
+          link: https://twitter.com/sinchips

@@ -59,30 +59,42 @@
 
 .team__grid{
 	margin-left: -20px;
+
 	.team__card__wrapper{
-		width: 50%;
+		width: 33.3%;
 		display: inline-block;
 		padding-left: 20px;
+    margin-bottom: 20px;
 	}
+
 	.team__card{
 		background-color: darken($color__gray--light,2);
 		position: relative;
 	}
+
 	.card__img{
 		position: relative;
+    @include grayscale-animation(1, .5s);
 		&:hover{
-			.card__social{
-				background-color: $card__social--background;
-				background-color: rgba($card__social--background, 0.6);
-			}
+      @include grayscale-animation(0, .5s);
 		}
 	}
+
 	img{
 		display: block;
 	}
+
 	.card__text{
 		position: relative;
 		padding: 14px;
+
+    h4 {
+      font-size: 16px;
+      color: $color__text;
+      margin-bottom: 5px;
+    }
+
+    p { font-size: 12px; }
 	}
 	.card__social{
 		position: absolute;
@@ -108,7 +120,7 @@
 			width: 60px;
 			text-align: center;
 			color: $color__background;
-			@include opacity(0.9);
+			@include opacity(0.8);
 			@include animation(.2s);
 			&:hover{
 				font-size: 52px;

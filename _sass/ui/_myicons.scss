@@ -174,10 +174,10 @@
 
 
 .#{$icon-css-prefix}-aquila {
-    content: url(#{$basepath}/images/aquila.png);
+    content: url(#{$basepath}/images/aquila_bco.png);
     position:relative;
-    width: 50px;
-    height: 50px;
+    width: 96px;
+    height: 96px;
     display:block;
 }
 
@@ -214,15 +214,15 @@
 }
 
 .#{$icon-css-prefix}-urbem {
-    content: url(#{$basepath}/images/urbem.png);
+    content: url(#{$basepath}/images/urbem_bco.png);
     position:relative;
-    width: 50px;
-    height: 50px;
+    width: 96px;
+    height: 96px;
     display:block;
 }
 
 .#{$icon-css-prefix}-consultoria {
-    content: url(#{$basepath}/images/consultoria.png);
+    content: url(#{$basepath}/images/consultoria96.png);
     position:relative;
     width: 90px;
     height: 90px;
@@ -230,7 +230,7 @@
 }
 
 .#{$icon-css-prefix}-desarrollo {
-    content: url(#{$basepath}/images/dev.png);
+    content: url(#{$basepath}/images/desarrollo96.png);
     position:relative;
     width: 90px;
     height: 90px;
@@ -238,7 +238,7 @@
 }
 
 .#{$icon-css-prefix}-educacion {
-    content: url(#{$basepath}/images/educacion.png);
+    content: url(#{$basepath}/images/educacion96.png);
     position:relative;
     width: 90px;
     height: 90px;
