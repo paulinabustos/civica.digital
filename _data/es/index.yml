@@ -10,7 +10,7 @@ intro:
   content: Construimos herramientas tecnológicas para fortalecer a la ciudadanía.
 
 apps:
-  title: Nuestros productos
+  title: Productos
   content: >
     Desarrollamos productos que atienden a problemáticas ciudadanas específicas.
     Diseñadas de la mano del ciudadano, enfocadas en resolver problemas ciudadanos
@@ -18,14 +18,14 @@ apps:
 
   list:
     - title: Aquila
-      desc: La plataforma cívica de datos abiertos de México
-      link: apps/aquila.html
+      desc: Motor de participación ciudadana
+      link:
       meta:
         class: app--aquila
         icon: icon-aquila
 
     - title: Urbem
-      desc: Mejora de servicios a través de evaluaciones ciudadanas
+      desc: Mejora de servicios públicos a través de evaluaciones ciudadanas
 
       link: apps/urbem.html
       meta:
@@ -89,27 +89,126 @@ team:
           link: https://linkedin.com/in/juanpabloe
 
     - name: Paulina Bustos Arellano
+      role: Operaciones
       desc: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros.
-      photo: images/foto-eme.jpg
+        Un día escuchó de Hacking Cívico y su vida no fue lo mismo, ahora
+        es una ciudadana 24/7.
+      photo: images/equipo/pau.png
       social:
-        - name: github
-          link: https://github.com/ememorato
         - name: twitter
-          link: https://twitter.com/ememorato
-        - name: linkedin
-          link: https://linkedin.com/in/ememorato
+          link: https://twitter.com/paulinabustosa
 
     - name: Noé Domínguez
+      role: Dev
       desc: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        ipsum ipsum, pellentesque quis ultricies et, maximus iaculis eros.
-      photo: images/foto-eme.jpg
+        Desarrollador. Le gustan las comunidades y su impacto positivo.
+        Aprender con libros y con experiencias, siempre hay algo que contar.
+      photo: images/equipo/poguez.png
       social:
         - name: github
-          link: https://github.com/ememorato
+          link: https://github.com/poguez
         - name: twitter
-          link: https://twitter.com/ememorato
-        - name: linkedin
-          link: https://linkedin.com/in/ememorato
+          link: https://twitter.com/noe_dgz
+
+    - name: Raúl Jiménez
+      role: CTO
+      desc: >
+        Apasionado por crear nuevos productos y servicios. Con un excelente equipo de tecnófilos,
+        busca traer el cool a la tecnología cívica.
+      photo: images/equipo/raul.png
+      social:
+        - name: github
+          link: https://github.com/jimenezjrs
+        - name: twitter
+          link: https://twitter.com/jimenezjrs
+
+    - name: Miguel Ángel Gordian
+      role: Dev
+      desc: >
+        El dev más joven del equipo. Dice ser estudiante, aunque hackea día y noche. Apasionado
+        por las nuevas tecnologías, la comida y el fútbol.
+      photo: images/equipo/ma.png
+      social:
+        - name: github
+          link: https://github.com/zoek1
+        - name: twitter
+          link: https://twitter.com/ilcapitanozoek
+
+    - name: Ricardo Alanís
+      role: Data
+      desc: >
+        Ricardo le encantan los datos y su análisis. Cree que la sociedad es el experimento
+        más importante, y trabaja para ayudar a entenderlo.
+      photo: images/equipo/ric.png
+      social:
+        - name: github
+          link: https://github.com/ricalanis
+        - name: twitter
+          link: https://twitter.com/ric_alanis
+
+    - name: Miguel Morán
+      role: Dev
+      desc: >
+        Mikesaurio. ISC egresado del IPN, con una pasión por el desarrollo web, móvil, DBs y temas de ubicuidad,
+        datos abiertos y  participación ciudadana.
+      photo: images/equipo/mks.png
+      social:
+        - name: github
+          link: https://github.com/mikesaurio
+        - name: twitter
+          link: https://twitter.com/yosoymikesaurio
+
+    - name: Sofía Moya
+      role: Diseño
+      desc: >
+        Diseñadora UI/UX. Amante de la perfección de lo visual, pero fiel creyente de
+        que la usabilidad va siempre por encima de la estética.
+      photo: images/equipo/sofia.png
+      social:
+        - name: twitter
+          link: https://twitter.com/sofia_moya
+
+    - name: Abi Sosa
+      role: Dev
+      desc: >
+        Mamá que programa, aprendiendo a ser multitasking y ciudadana. Convierte
+        el café en aplicaciones web. Resuelve problemas.
+      photo: images/equipo/abi.jpg
+      social:
+        - name: github
+          link: https://github.com/abisosa
+        - name: twitter
+          link: https://twitter.com/abybot
+
+    - name: Adriana Elizondo
+      role: Happiness
+      desc: >
+        Ex burócrata convencida de que la calidad de los productos reside en las personas
+        detrás de ellos. Un día ganó un concurso de cuento.
+      photo: images/equipo/adriana.png
+      social:
+        - name: twitter
+          link: https://twitter.com/adrianamariae
+
+    - name: Sandra Barrón
+      role: Producto
+      desc: >
+        Sandy es diseñadora de producto con experiencia en UX & UI, front-end y back-end.
+      photo: images/equipo/sandy.png
+      social:
+        - name: github
+          link: https://github.com/sandychocochips
+        - name: twitter
+          link: https://twitter.com/sinchips
+
+    - name: Carlos Castellanos
+      role: Dev
+      desc: >
+         Chiapas. Amante de las bicicletas, y del hacking cívico usando open data,
+         iOS y Ruby on Rails como sus herramientas.
+      photo: images/equipo/carlos.png
+      social:
+        - name: github
+          link: https://github.com/sandychocochips
+        - name: twitter
+          link: https://twitter.com/sinchips

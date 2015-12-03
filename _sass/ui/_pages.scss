@@ -59,15 +59,19 @@
 
 .team__grid{
 	margin-left: -20px;
+
 	.team__card__wrapper{
 		width: 33.3%;
 		display: inline-block;
 		padding-left: 20px;
+    margin-bottom: 20px;
 	}
+
 	.team__card{
 		background-color: darken($color__gray--light,2);
 		position: relative;
 	}
+
 	.card__img{
 		position: relative;
     @include grayscale-animation(1, .5s);
@@ -75,9 +79,11 @@
       @include grayscale-animation(0, .5s);
 		}
 	}
+
 	img{
 		display: block;
 	}
+
 	.card__text{
 		position: relative;
 		padding: 14px;
