@@ -3,11 +3,11 @@ desc: Una corta descripción
 image: /alguna/imagen.png
 btn:
   msg: "escríbenos"
-  link: "#"
+  link: "mailto:hola@civica.digital"
 
 intro:
   img: images/logo--white.png
-  content: Construimos herramientas tecnológicas para fortalecer a la ciudadanía.
+  content: Herramientas digitales para fortalecer a la ciudadanía.
 
 apps:
   title: Productos
