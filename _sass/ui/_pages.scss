@@ -6,7 +6,7 @@
 	background-position: center center;
 	background-attachment: fixed;
 	position: relative;
-	background-image: url(../images/bg_intro-team.jpg);
+	background-image: url(../images/bg_index.jpg);
 	.intro__content{
 		position: absolute;
 		bottom: 0;
@@ -40,6 +40,9 @@
 	}
 	&.page--services{
 		background-image: url(../images/bg_intro-services.jpg);
+	}
+	&.page--jobs{
+		background-image: url(../images/bg_jobs.jpg);
 	}
 }
 
