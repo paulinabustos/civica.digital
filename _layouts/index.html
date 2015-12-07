@@ -32,12 +32,12 @@ layout: default
             <div class="app__grid">
                 <div class="app__row">
                   {% for app in t.apps.list %}
-                    <a href="{{ app.link }}" class="app__item  {{ app.meta.class }}">
+                    <div class="app__item  {{ app.meta.class }}">
                         <i class="icon  {{ app.meta.icon }}"></i>
                         <h2>{{ app.title }}</h2>
                         <p>{{ app.desc }}</p>
-                    </a>
-                    {% endfor %}
+                    </div>
+                  {% endfor %}
                 </div>
             </div>
         </div>
