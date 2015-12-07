@@ -12,7 +12,8 @@ layout: default
 
 {% assign pagename = page.name | remove: '.html' %}
 {% assign t = site.data[page.lang][pagename] %}
-    <div class="index__intro">
+
+    <div class="index__intro intro-container">
         <div class="intro__overlay"></div>
         <div class="intro__wrapper">
             <div class="intro__content">
@@ -23,7 +24,8 @@ layout: default
               </div>
         </div>
     </div>
-    <div class="section__apps">
+
+    <div class="section__apps products-container" id="products">
         <div class="apps__content">
             <h1>{{ t.apps.title }}</h1>
             <p>{{ t.apps.content }}</p>
@@ -40,7 +42,8 @@ layout: default
             </div>
         </div>
     </div>
-    <div class="section__services">
+
+    <div class="section__services services-container" id="services">
         <div class="services__content">
             <h1>{{ t.services.title }}</h1>
             <p>{{ t.services.desc }}</p>
@@ -63,7 +66,8 @@ layout: default
             </div>
         </div>
     </div>
-    <div class="section__team">
+
+    <div class="section__team team-container" id="team">
         <div class="team__content">
             <h1>{{ t.team.title }}</h1>
             <p>{{ t.team.desc }}</p>
