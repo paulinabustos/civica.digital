@@ -1,6 +1,6 @@
 # Site settings
 title: Civica Digital
-email: info@civica.digital
+email: hola@civica.digital
 description: > # this means to ignore newlines until "baseurl:"
   Desarrollamos tecnología que empodera a los ciudadanos, junto con ellos.
 baseurl: "" # the subpath of your site, e.g. /blog/
