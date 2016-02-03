@@ -92,9 +92,11 @@ team:
       role: Operaciones
       desc: >
         Un día escuchó de Hacking Cívico y su vida no fue lo mismo, ahora
-        es una ciudadana 24/7.
+        es una ciudadana 24/7. Everyday she is shiping (8)
       photo: images/equipo/pau.png
       social:
+        - name: github
+          link: https://github.com/paulinabustos
         - name: twitter
           link: https://twitter.com/paulinabustosa
 
